@@ -1,0 +1,198 @@
+IQ-TREE 2.0.4 built Apr 27 2020
+
+Input file name: Exophiala.Run1.SNPs.fasaln
+Type of analysis: tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 368859
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 24 sequences with 279 nucleotide sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 279
+Number of distinct site patterns: 124
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+ASC
+
+Rate parameter R:
+
+  A-C: 1.4514
+  A-G: 5.7052
+  A-T: 1.6059
+  C-G: 0.6473
+  C-T: 4.8373
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1111
+  pi(C) = 0.3746
+  pi(G) = 0.3586
+  pi(T) = 0.1558
+
+Rate matrix Q:
+
+  A    -1.917    0.3671     1.381    0.1689
+  C    0.1089   -0.7744    0.1567    0.5088
+  G     0.428    0.1637   -0.6969    0.1052
+  T    0.1205     1.223    0.2421    -1.586
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1992.4677 (s.e. 88.6537)
+Unconstrained log-likelihood (without tree): -1244.0802
+Number of free parameters (#branches + #model parameters): 53
+Akaike information criterion (AIC) score: 4090.9354
+Corrected Akaike information criterion (AICc) score: 4116.3754
+Bayesian information criterion (BIC) score: 4283.3896
+
+Total tree length (sum of branch lengths): 0.8763
+Sum of internal branch lengths: 0.6527 (74.4826% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0036) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ex13' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++--Ex13
+|
+|                                        +--Ex20
+|                   +--------------------| (100)
+|                   |                    |  +**Ex15
+|                   |                    +--| (64)
+|                   |                       +---------------Ex18
+|             +-----| (100)
+|             |     +--Ex21
+|  +----------| (100)
+|  |          +**Ex5
++--| (98)
+|  |                                                          +--Ex17
+|  |                                                       +--| (48)
+|  |                                                       |  +--Ex22
+|  |                                                    +--| (50)
+|  |                                                    |  +**Ex16
+|  |                                                 +--| (67)
+|  |                                                 |  +--Ex7
+|  |                                              +--| (81)
+|  |                                              |  +**Ex19
+|  |                                      +-------| (100)
+|  |                                      |       +--Ex23
+|  |                         +------------| (100)
+|  |                         |            |  +**Ex6
+|  |                         |            +--| (99)
+|  |                         |               +--Ex10
+|  |                      +**| (69)
+|  |                      |  |     +**Ex4
+|  |                      |  |  +--| (80)
+|  |                      |  |  |  |  +--Ex8
+|  |                      |  |  |  +**| (44)
+|  |                      |  |  |     +--Ex4REF
+|  |                      |  +--| (100)
+|  |                      |     +**Ex3
+|  |  +-------------------| (100)
+|  |  |                   |              +--Ex12
+|  |  |                   |           +**| (41)
+|  |  |                   |           |  +--Ex14
+|  |  |                   +-----------| (100)
+|  |  |                               |  +--Ex2
+|  |  |                               +--| (43)
+|  |  |                                  +**Ex1
+|  +--| (100)
+|     +--Ex11
+|
++**Ex9
+
+Tree in newick format:
+
+(Ex13:0.0144620002,((((Ex20:0.0132764457,(Ex15:0.0000021194,Ex18:0.0887020505)64:0.0114395417)100:0.1193086237,Ex21:0.0077506247)100:0.0341020387,Ex5:0.0000010000)100:0.0651036734,(((((((((Ex17:0.0063098650,Ex22:0.0062648758)48:0.0083842454,Ex16:0.0000010000)50:0.0082953138,Ex7:0.0064148594)67:0.0106796569,Ex19:0.0021005139)81:0.0107089180,Ex23:0.0172896090)100:0.0453117331,(Ex6:0.0028217339,Ex10:0.0079874990)99:0.0219969581)100:0.0745463535,((Ex4:0.0000024993,(Ex8:0.0067137759,Ex4REF:0.0044557259)44:0.0022334307)80:0.0067500560,Ex3:0.0000010000)100:0.0215269036)69:0.0014052076,((Ex12:0.0063900310,Ex14:0.0090030575)41:0.0023471926,(Ex2:0.0152208551,Ex1:0.0021717949)43:0.0044056954)100:0.0674354961)100:0.1108904992,Ex11:0.0037961258)100:0.0132269214)98:0.0126216497,Ex9:0.0024797396);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100 bootstrap trees
+Log-likelihood of consensus tree: -1993.623845
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Ex13
+|
+|                                        +--Ex20
+|                   +--------------------| (100)
+|                   |                    |  +--Ex15
+|                   |                    +--| (64)
+|                   |                       +---------------Ex18
+|             +-----| (100)
+|             |     +--Ex21
+|  +----------| (100)
+|  |          +--Ex5
++--| (98)
+|  |                                                          +--Ex17
+|  |                                                       +--| (48)
+|  |                                                       |  +--Ex22
+|  |                                                    +--| (50)
+|  |                                                    |  +--Ex16
+|  |                                                 +--| (67)
+|  |                                                 |  +--Ex7
+|  |                                              +--| (81)
+|  |                                              |  +--Ex19
+|  |                                      +-------| (100)
+|  |                                      |       +--Ex23
+|  |                         +------------| (100)
+|  |                         |            |  +--Ex6
+|  |                         |            +--| (99)
+|  |                         |               +--Ex10
+|  |                      +--| (69)
+|  |                      |  |        +--Ex4
+|  |                      |  |     +--| (44)
+|  |                      |  |     |  +--Ex4REF
+|  |                      |  |  +--| (80)
+|  |                      |  |  |  +--Ex8
+|  |                      |  +--| (100)
+|  |                      |     +--Ex3
+|  |  +-------------------| (100)
+|  |  |                   |              +--Ex12
+|  |  |                   |           +--| (41)
+|  |  |                   |           |  +--Ex14
+|  |  |                   +-----------| (100)
+|  |  |                               |  +--Ex2
+|  |  |                               +--| (43)
+|  |  |                                  +--Ex1
+|  +--| (100)
+|     +--Ex11
+|
++--Ex9
+
+
+Consensus tree in newick format: 
+
+(Ex13:0.0144721610,((((Ex20:0.0132824986,(Ex15:0.0000027017,Ex18:0.0887532000)64:0.0114455593)100:0.1193931615,Ex21:0.0077514925)100:0.0341304024,Ex5:0.0000027542)100:0.0651560931,(((((((((Ex17:0.0063183084,Ex22:0.0062735421)48:0.0083948848,Ex16:0.0000028414)50:0.0083058870,Ex7:0.0064242485)67:0.0106933308,Ex19:0.0021028054)81:0.0107205608,Ex23:0.0173133082)100:0.0453681148,(Ex6:0.0028235263,Ex10:0.0079983748)99:0.0220226753)100:0.0746468909,(((Ex4:0.0000024066,Ex4REF:0.0066997125)44:0.0022035212,Ex8:0.0067510118)80:0.0045563839,Ex3:0.0000027542)100:0.0215541807)69:0.0014029472,((Ex12:0.0063955082,Ex14:0.0090115129)41:0.0023486933,(Ex2:0.0152362518,Ex1:0.0021733355)43:0.0044096321)100:0.0675128469)100:0.1110015642,Ex11:0.0037975405)100:0.0132374419)98:0.0126309614,Ex9:0.0024822124);
+
+TIME STAMP
+----------
+
+Date and time: Sat Jun 13 09:18:23 2020
+Total CPU time used: 4.923561 seconds (0h:0m:4s)
+Total wall-clock time used: 2.529554129 seconds (0h:0m:2s)
+
