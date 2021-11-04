@@ -1,0 +1,19 @@
+##########
+45 sequences to analyze for telomeric repeats (TTAGGG/CCCTAA) in file Exophiala_dermatitidis_Ex4.fa
+##########
+
+scaffold_1 	 Forward (start of sequence) 	 CCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACC
+scaffold_1 	 Reverse (end of sequence) 	 TTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTT
+scaffold_2 	 Forward (start of sequence) 	 CCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACC
+scaffold_2 	 Reverse (end of sequence) 	 GGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGG
+scaffold_3 	 Reverse (end of sequence) 	 GTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGG
+scaffold_4 	 Forward (start of sequence) 	 AAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTA
+scaffold_4 	 Reverse (end of sequence) 	 GTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGG
+scaffold_5 	 Forward (start of sequence) 	 CCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACC
+scaffold_5 	 Reverse (end of sequence) 	 TAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTT
+scaffold_6 	 Forward (start of sequence) 	 CCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACC
+scaffold_6 	 Reverse (end of sequence) 	 AGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTA
+scaffold_8 	 Reverse (end of sequence) 	 TTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTTTAGGGTT
+scaffold_9 	 Forward (start of sequence) 	 AACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAAACCCTAA
+
+Telomeres found: 13 (6 forward, 7 reverse)

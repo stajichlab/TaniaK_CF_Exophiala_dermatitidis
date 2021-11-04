@@ -1,0 +1,11 @@
+[+]	Exploring genome for potential telomeric repeats between lengths 5 and 12.
+[+]		Finding telomeric repeat length: 5
+[+]		Finding telomeric repeat length: 6
+[+]		Finding telomeric repeat length: 7
+[+]		Finding telomeric repeat length: 8
+[+]		Finding telomeric repeat length: 9
+[+]		Finding telomeric repeat length: 10
+[+]		Finding telomeric repeat length: 11
+[+]		Finding telomeric repeat length: 12
+[+]	Finished searching genome
+[+]	Generating output
