@@ -1,0 +1,130 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+00:00:00	SnpEff version SnpEff 4.3m (build 2017-05-05 18:41), by Pablo Cingolani
+00:00:00	Command: 'eff'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Exophiala_dermatitidis_Ex4'
+00:00:00	Reading config file: /bigdata/stajichlab/shared/projects/Exophalia/Ex4_reference/snpEff_tryagain/snpEff.config
+00:00:00	done
+00:00:00	Reading database for genome version 'Exophiala_dermatitidis_Ex4' from file '/rhome/tkurb001/shared/projects/Exophalia/GATK_redo/snpEff_tryagain/data/Exophiala_dermatitidis_Ex4/snpEffectPredictor.bin' (this might take a while)
+00:00:03	done
+00:00:03	Loading Motifs and PWMs
+00:00:03	Building interval forest
+00:00:04	done.
+00:00:04	Genome stats :
+#-----------------------------------------------
+# Genome name                : 'Exophiala dermatitidis Ex4'
+# Genome version             : 'Exophiala_dermatitidis_Ex4'
+# Genome ID                  : 'Exophiala_dermatitidis_Ex4[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 8726
+# Protein coding genes       : 8726
+#-----------------------------------------------
+# Transcripts                : 8726
+# Avg. transcripts per gene  : 1.00
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 8726
+#              Length errors :     42 ( 0.48% )
+#  STOP codons in CDS errors :     25 ( 0.29% )
+#         START codon errors :     82 ( 0.94% )
+#        STOP codon warnings :     33 ( 0.38% )
+#              UTR sequences :      8 ( 0.09% )
+#               Total Errors :     86 ( 0.99% )
+#-----------------------------------------------
+# Cds                        : 19098
+# Exons                      : 19164
+# Exons with sequence        : 19164
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 2.20
+# WARNING                    : No mitochondrion chromosome found
+#-----------------------------------------------
+# Number of chromosomes      : 45
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'scaffold_1'	4314646	Standard
+#		'scaffold_2'	4303030	Standard
+#		'scaffold_3'	3726496	Standard
+#		'scaffold_4'	3672342	Standard
+#		'scaffold_5'	3382390	Standard
+#		'scaffold_7'	2891896	Standard
+#		'scaffold_6'	2864055	Standard
+#		'scaffold_8'	1200926	Standard
+#		'scaffold_9'	251008	Standard
+#		'scaffold_10'	1177	Standard
+#		'scaffold_11'	1169	Standard
+#		'scaffold_12'	1116	Standard
+#		'scaffold_13'	1012	Standard
+#		'scaffold_14'	968	Standard
+#		'scaffold_15'	965	Standard
+#		'scaffold_16'	954	Standard
+#		'scaffold_17'	945	Standard
+#		'scaffold_18'	940	Standard
+#		'scaffold_19'	903	Standard
+#		'scaffold_20'	874	Standard
+#		'scaffold_21'	843	Standard
+#		'scaffold_22'	822	Standard
+#		'scaffold_23'	790	Standard
+#		'scaffold_24'	789	Standard
+#		'scaffold_25'	724	Standard
+#		'scaffold_26'	714	Standard
+#		'scaffold_27'	688	Standard
+#		'scaffold_28'	683	Standard
+#		'scaffold_29'	672	Standard
+#		'scaffold_30'	672	Standard
+#		'scaffold_31'	649	Standard
+#		'scaffold_32'	636	Standard
+#		'scaffold_33'	633	Standard
+#		'scaffold_34'	613	Standard
+#		'scaffold_35'	605	Standard
+#		'scaffold_36'	603	Standard
+#		'scaffold_37'	578	Standard
+#		'scaffold_38'	576	Standard
+#		'scaffold_39'	543	Standard
+#		'scaffold_40'	542	Standard
+#		'scaffold_41'	540	Standard
+#		'scaffold_42'	537	Standard
+#		'scaffold_43'	505	Standard
+#		'scaffold_44'	504	Standard
+#		'scaffold_45'	501	Standard
+#-----------------------------------------------
+
+00:00:07	Predicting variants
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+WARNING_TRANSCRIPT_INCOMPLETE	2
+WARNING_TRANSCRIPT_MULTIPLE_STOP_CODONS	8
+WARNING_TRANSCRIPT_NO_START_CODON	2
+
+
+00:00:08	Creating summary file: snpEff_summary.html
+00:00:09	Creating genes file: snpEff_genes.txt
+00:00:10	done.
+00:00:10	Logging
+00:00:11	Checking for updates...
+00:00:12	Done.
+Traceback (most recent call last):
+  File "../scripts/snpEff_2_tab.py", line 3, in <module>
+    import vcf,re
+ImportError: No module named vcf
