@@ -1,0 +1,2814 @@
+i04
+[15:49:32] INFO - Starting clinker
+[15:49:32] INFO - Parsing files:
+[15:49:32] INFO -   Ex10_MAT.gbk
+[15:49:33] INFO -   Ex11_MAT.gbk
+[15:49:33] INFO -   Ex12_MAT.gbk
+[15:49:33] INFO -   Ex13_MAT.gbk
+[15:49:33] INFO -   Ex14_MAT.gbk
+[15:49:33] INFO -   Ex15_MAT.gbk
+[15:49:33] INFO -   Ex16_MAT.gbk
+[15:49:33] INFO -   Ex17_MAT.gbk
+[15:49:33] INFO -   Ex18_MAT.gbk
+[15:49:33] INFO -   Ex19_MAT.gbk
+[15:49:33] INFO -   Ex1_MAT.gbk
+[15:49:33] INFO -   Ex20_MAT.gbk
+[15:49:33] INFO -   Ex21_MAT.gbk
+[15:49:33] INFO -   Ex22_MAT.gbk
+[15:49:33] INFO -   Ex23_MAT.gbk
+[15:49:33] INFO -   Ex2_MAT.gbk
+[15:49:33] INFO -   Ex3_MAT.gbk
+[15:49:33] INFO -   Ex4_MAT.gbk
+[15:49:33] INFO -   Ex5_MAT.gbk
+/rhome/tkurb001/bigdata/.conda/envs/clinker/lib/python3.9/site-packages/Bio/Seq.py:2334: BiopythonWarning: Partial codon, len(sequence) not a multiple of three. Explicitly trim the sequence or add trailing N before translation. This may become an error in future.
+  warnings.warn(
+[15:49:33] INFO -   Ex6_MAT.gbk
+[15:49:33] INFO -   Ex7_MAT.gbk
+[15:49:33] INFO -   Ex8_MAT.gbk
+[15:49:33] INFO -   Ex9_MAT.gbk
+[15:49:33] INFO -   S4_MAT.gbk
+[15:49:33] INFO - Starting cluster alignments
+[15:49:34] INFO - Ex10_MAT vs Ex11_MAT
+[15:49:34] INFO - Ex10_MAT vs Ex13_MAT
+[15:49:34] INFO - Ex10_MAT vs Ex15_MAT
+[15:49:34] INFO - Ex10_MAT vs Ex17_MAT
+[15:49:34] INFO - Ex10_MAT vs Ex20_MAT
+[15:49:34] INFO - Ex10_MAT vs Ex19_MAT
+[15:49:34] INFO - Ex10_MAT vs Ex22_MAT
+[15:49:34] INFO - Ex10_MAT vs Ex2_MAT
+[15:49:34] INFO - Ex10_MAT vs Ex4_MAT
+[15:49:34] INFO - Ex10_MAT vs Ex6_MAT
+[15:49:34] INFO - Ex10_MAT vs Ex8_MAT
+[15:49:34] INFO - Ex10_MAT vs S4_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex13_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex15_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex17_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex19_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex20_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex22_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex2_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex4_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex6_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex8_MAT
+[15:49:34] INFO - Ex11_MAT vs S4_MAT
+[15:49:34] INFO - Ex12_MAT vs Ex14_MAT
+[15:49:34] INFO - Ex12_MAT vs Ex16_MAT
+[15:49:34] INFO - Ex12_MAT vs Ex18_MAT
+[15:49:34] INFO - Ex12_MAT vs Ex1_MAT
+[15:49:34] INFO - Ex12_MAT vs Ex21_MAT
+[15:49:34] INFO - Ex12_MAT vs Ex23_MAT
+[15:49:34] INFO - Ex12_MAT vs Ex3_MAT
+[15:49:34] INFO - Ex12_MAT vs Ex5_MAT
+[15:49:34] INFO - Ex12_MAT vs Ex7_MAT
+[15:49:34] INFO - Ex12_MAT vs Ex9_MAT
+[15:49:34] INFO - Ex13_MAT vs Ex14_MAT
+[15:49:34] INFO - Ex13_MAT vs Ex16_MAT
+[15:49:34] INFO - Ex13_MAT vs Ex18_MAT
+[15:49:34] INFO - Ex13_MAT vs Ex1_MAT
+[15:49:34] INFO - Ex13_MAT vs Ex21_MAT
+[15:49:34] INFO - Ex13_MAT vs Ex23_MAT
+[15:49:34] INFO - Ex13_MAT vs Ex3_MAT
+[15:49:34] INFO - Ex13_MAT vs Ex5_MAT
+[15:49:34] INFO - Ex13_MAT vs Ex7_MAT
+[15:49:34] INFO - Ex13_MAT vs Ex9_MAT
+[15:49:34] INFO - Ex14_MAT vs Ex15_MAT
+[15:49:34] INFO - Ex14_MAT vs Ex17_MAT
+[15:49:34] INFO - Ex14_MAT vs Ex19_MAT
+[15:49:34] INFO - Ex14_MAT vs Ex20_MAT
+[15:49:34] INFO - Ex14_MAT vs Ex2_MAT
+[15:49:34] INFO - Ex14_MAT vs Ex22_MAT
+[15:49:34] INFO - Ex14_MAT vs Ex4_MAT
+[15:49:34] INFO - Ex14_MAT vs Ex6_MAT
+[15:49:34] INFO - Ex14_MAT vs Ex8_MAT
+[15:49:34] INFO - Ex14_MAT vs S4_MAT
+[15:49:34] INFO - Ex15_MAT vs Ex17_MAT
+[15:49:34] INFO - Ex15_MAT vs Ex20_MAT
+[15:49:34] INFO - Ex15_MAT vs Ex19_MAT
+[15:49:34] INFO - Ex15_MAT vs Ex2_MAT
+[15:49:34] INFO - Ex15_MAT vs Ex22_MAT
+[15:49:34] INFO - Ex15_MAT vs Ex4_MAT
+[15:49:34] INFO - Ex15_MAT vs Ex8_MAT
+[15:49:34] INFO - Ex15_MAT vs Ex6_MAT
+[15:49:34] INFO - Ex15_MAT vs S4_MAT
+[15:49:34] INFO - Ex16_MAT vs Ex18_MAT
+[15:49:34] INFO - Ex16_MAT vs Ex1_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex21_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex5_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex7_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex16_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex23_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex9_MAT
+[15:49:34] INFO - Ex10_MAT vs Ex12_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex14_MAT
+[15:49:34] INFO - Ex16_MAT vs Ex21_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex1_MAT
+[15:49:34] INFO - Ex16_MAT vs Ex23_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex3_MAT
+[15:49:34] INFO - Ex16_MAT vs Ex3_MAT
+[15:49:34] INFO - Ex12_MAT vs Ex13_MAT
+[15:49:34] INFO - Ex11_MAT vs Ex18_MAT
+[15:49:34] INFO - Ex16_MAT vs Ex5_MAT
+[15:49:34] INFO - Ex16_MAT vs Ex7_MAT
+[15:49:34] INFO - Ex16_MAT vs Ex9_MAT
+[15:49:34] INFO - Ex17_MAT vs Ex18_MAT
+[15:49:34] INFO - Ex17_MAT vs Ex1_MAT
+[15:49:34] INFO - Ex17_MAT vs Ex21_MAT
+[15:49:34] INFO - Ex17_MAT vs Ex23_MAT
+[15:49:35] INFO - Ex15_MAT vs Ex1_MAT
+[15:49:35] INFO - Ex13_MAT vs Ex8_MAT
+[15:49:35] INFO - Ex12_MAT vs Ex15_MAT
+[15:49:36] INFO - Ex15_MAT vs Ex18_MAT
+[15:49:36] INFO - Ex14_MAT vs Ex1_MAT
+[15:49:36] INFO - Ex10_MAT vs Ex5_MAT
+[15:49:36] INFO - Ex15_MAT vs Ex5_MAT
+[15:49:36] INFO - Ex14_MAT vs Ex16_MAT
+[15:49:36] INFO - Ex15_MAT vs Ex23_MAT
+[15:49:36] INFO - Ex13_MAT vs Ex2_MAT
+[15:49:36] INFO - Ex10_MAT vs Ex1_MAT
+[15:49:36] INFO - Ex10_MAT vs Ex21_MAT
+[15:49:36] INFO - Ex12_MAT vs Ex22_MAT
+[15:49:36] INFO - Ex13_MAT vs Ex4_MAT
+[15:49:36] INFO - Ex12_MAT vs Ex17_MAT
+[15:49:36] INFO - Ex13_MAT vs Ex22_MAT
+[15:49:36] INFO - Ex15_MAT vs Ex3_MAT
+[15:49:36] INFO - Ex15_MAT vs Ex7_MAT
+[15:49:36] INFO - Ex15_MAT vs Ex21_MAT
+[15:49:36] INFO - Ex14_MAT vs Ex7_MAT
+[15:49:36] INFO - Ex16_MAT vs Ex19_MAT
+[15:49:36] INFO - Ex10_MAT vs Ex23_MAT
+[15:49:36] INFO - Ex14_MAT vs Ex18_MAT
+[15:49:36] INFO - Ex12_MAT vs Ex8_MAT
+[15:49:36] INFO - Ex17_MAT vs Ex3_MAT
+[15:49:36] INFO - Ex10_MAT vs Ex14_MAT
+[15:49:36] INFO - Ex16_MAT vs Ex8_MAT
+[15:49:36] INFO - Ex10_MAT vs Ex7_MAT
+[15:49:36] INFO - Ex10_MAT vs Ex16_MAT
+[15:49:36] INFO - Ex12_MAT vs Ex4_MAT
+[15:49:37] INFO - Ex10_MAT vs Ex9_MAT
+[15:49:37] INFO - Ex13_MAT vs Ex19_MAT
+[15:49:37] INFO - Ex13_MAT vs Ex6_MAT
+[15:49:37] INFO - Ex13_MAT vs S4_MAT
+[15:49:37] INFO - Ex10_MAT vs Ex18_MAT
+[15:49:37] INFO - Ex14_MAT vs Ex9_MAT
+[15:49:37] INFO - Ex14_MAT vs Ex3_MAT
+[15:49:37] INFO - Ex12_MAT vs Ex19_MAT
+[15:49:37] INFO - Ex14_MAT vs Ex5_MAT
+[15:49:37] INFO - Ex13_MAT vs Ex17_MAT
+[15:49:37] INFO - Ex16_MAT vs Ex6_MAT
+[15:49:37] INFO - Ex12_MAT vs S4_MAT
+[15:49:37] INFO - Ex15_MAT vs Ex9_MAT
+[15:49:37] INFO - Ex14_MAT vs Ex23_MAT
+[15:49:37] INFO - Ex13_MAT vs Ex15_MAT
+[15:49:37] INFO - Ex17_MAT vs Ex5_MAT
+[15:49:37] INFO - Ex16_MAT vs Ex22_MAT
+[15:49:37] INFO - Ex12_MAT vs Ex2_MAT
+[15:49:37] INFO - Ex10_MAT vs Ex3_MAT
+[15:49:37] INFO - Ex16_MAT vs Ex2_MAT
+[15:49:37] INFO - Ex14_MAT vs Ex21_MAT
+[15:49:37] INFO - Ex12_MAT vs Ex6_MAT
+[15:49:37] INFO - Ex16_MAT vs Ex4_MAT
+[15:49:37] INFO - Ex16_MAT vs S4_MAT
+[15:49:37] INFO - Ex17_MAT vs Ex22_MAT
+[15:49:37] INFO - Ex17_MAT vs Ex2_MAT
+[15:49:37] INFO - Ex17_MAT vs Ex7_MAT
+[15:49:37] INFO - Ex17_MAT vs Ex19_MAT
+[15:49:37] INFO - Ex17_MAT vs Ex9_MAT
+[15:49:38] INFO - Ex18_MAT vs Ex19_MAT
+[15:49:38] INFO - Ex18_MAT vs Ex20_MAT
+[15:49:38] INFO - Ex18_MAT vs Ex22_MAT
+[15:49:38] INFO - Ex18_MAT vs Ex2_MAT
+[15:49:38] INFO - Ex18_MAT vs Ex4_MAT
+[15:49:38] INFO - Ex18_MAT vs Ex6_MAT
+[15:49:38] INFO - Ex18_MAT vs Ex8_MAT
+[15:49:38] INFO - Ex18_MAT vs S4_MAT
+[15:49:38] INFO - Ex16_MAT vs Ex17_MAT
+[15:49:38] INFO - Ex19_MAT vs Ex20_MAT
+[15:49:38] INFO - Ex15_MAT vs Ex16_MAT
+[15:49:38] INFO - Ex19_MAT vs Ex22_MAT
+[15:49:38] INFO - Ex19_MAT vs Ex2_MAT
+[15:49:38] INFO - Ex19_MAT vs Ex6_MAT
+[15:49:38] INFO - Ex19_MAT vs Ex4_MAT
+[15:49:38] INFO - Ex19_MAT vs Ex8_MAT
+[15:49:38] INFO - Ex12_MAT vs Ex20_MAT
+[15:49:38] INFO - Ex19_MAT vs S4_MAT
+[15:49:38] INFO - Ex1_MAT vs Ex21_MAT
+[15:49:38] INFO - Ex1_MAT vs Ex23_MAT
+[15:49:38] INFO - Ex1_MAT vs Ex3_MAT
+[15:49:39] INFO - Ex17_MAT vs Ex8_MAT
+[15:49:39] INFO - Ex1_MAT vs Ex5_MAT
+[15:49:39] INFO - Ex1_MAT vs Ex7_MAT
+[15:49:39] INFO - Ex1_MAT vs Ex9_MAT
+[15:49:39] INFO - Ex20_MAT vs Ex21_MAT
+[15:49:39] INFO - Ex20_MAT vs Ex23_MAT
+[15:49:39] INFO - Ex20_MAT vs Ex3_MAT
+[15:49:39] INFO - Ex20_MAT vs Ex5_MAT
+[15:49:39] INFO - Ex17_MAT vs Ex4_MAT
+[15:49:39] INFO - Ex17_MAT vs S4_MAT
+[15:49:39] INFO - Ex20_MAT vs Ex7_MAT
+[15:49:39] INFO - Ex18_MAT vs Ex1_MAT
+[15:49:39] INFO - Ex20_MAT vs Ex9_MAT
+[15:49:39] INFO - Ex21_MAT vs Ex22_MAT
+[15:49:39] INFO - Ex21_MAT vs Ex2_MAT
+[15:49:40] INFO - Ex21_MAT vs Ex4_MAT
+[15:49:40] INFO - Ex21_MAT vs Ex6_MAT
+[15:49:40] INFO - Ex18_MAT vs Ex21_MAT
+[15:49:40] INFO - Ex18_MAT vs Ex3_MAT
+[15:49:40] INFO - Ex21_MAT vs Ex8_MAT
+[15:49:40] INFO - Ex21_MAT vs S4_MAT
+[15:49:40] INFO - Ex22_MAT vs Ex2_MAT
+[15:49:40] INFO - Ex22_MAT vs Ex4_MAT
+[15:49:40] INFO - Ex18_MAT vs Ex5_MAT
+[15:49:40] INFO - Ex18_MAT vs Ex23_MAT
+[15:49:40] INFO - Ex22_MAT vs Ex6_MAT
+[15:49:40] INFO - Ex22_MAT vs Ex8_MAT
+[15:49:40] INFO - Ex22_MAT vs S4_MAT
+[15:49:40] INFO - Ex23_MAT vs Ex3_MAT
+[15:49:40] INFO - Ex23_MAT vs Ex5_MAT
+[15:49:40] INFO - Ex23_MAT vs Ex7_MAT
+[15:49:40] INFO - Ex23_MAT vs Ex9_MAT
+[15:49:40] INFO - Ex2_MAT vs Ex3_MAT
+[15:49:40] INFO - Ex2_MAT vs Ex5_MAT
+[15:49:40] INFO - Ex18_MAT vs Ex7_MAT
+[15:49:40] INFO - Ex2_MAT vs Ex7_MAT
+[15:49:40] INFO - Ex2_MAT vs Ex9_MAT
+[15:49:40] INFO - Ex3_MAT vs Ex4_MAT
+[15:49:40] INFO - Ex19_MAT vs Ex21_MAT
+[15:49:40] INFO - Ex3_MAT vs Ex6_MAT
+[15:49:40] INFO - Ex18_MAT vs Ex9_MAT
+[15:49:40] INFO - Ex16_MAT vs Ex20_MAT
+[15:49:40] INFO - Ex3_MAT vs Ex8_MAT
+[15:49:40] INFO - Ex17_MAT vs Ex6_MAT
+[15:49:40] INFO - Ex19_MAT vs Ex7_MAT
+[15:49:40] INFO - Ex19_MAT vs Ex3_MAT
+[15:49:40] INFO - Ex19_MAT vs Ex9_MAT
+[15:49:40] INFO - Ex3_MAT vs S4_MAT
+[15:49:40] INFO - Ex19_MAT vs Ex23_MAT
+[15:49:40] INFO - Ex19_MAT vs Ex5_MAT
+[15:49:40] INFO - Ex4_MAT vs Ex6_MAT
+[15:49:40] INFO - Ex4_MAT vs Ex8_MAT
+[15:49:40] INFO - Ex11_MAT vs Ex12_MAT
+[15:49:40] INFO - Ex13_MAT vs Ex20_MAT
+[15:49:41] INFO - Ex4_MAT vs S4_MAT
+[15:49:41] INFO - Ex5_MAT vs Ex7_MAT
+[15:49:41] INFO - Ex5_MAT vs Ex9_MAT
+[15:49:41] INFO - Ex17_MAT vs Ex20_MAT
+[15:49:42] INFO - Ex20_MAT vs Ex8_MAT
+[15:49:42] INFO - Ex20_MAT vs Ex22_MAT
+[15:49:42] INFO - Ex20_MAT vs Ex2_MAT
+[15:49:42] INFO - Ex20_MAT vs Ex4_MAT
+[15:49:42] INFO - Ex20_MAT vs Ex6_MAT
+[15:49:42] INFO - Ex21_MAT vs Ex3_MAT
+[15:49:42] INFO - Ex20_MAT vs S4_MAT
+[15:49:42] INFO - Ex21_MAT vs Ex5_MAT
+[15:49:42] INFO - Ex6_MAT vs Ex7_MAT
+[15:49:42] INFO - Ex21_MAT vs Ex9_MAT
+[15:49:42] INFO - Ex6_MAT vs Ex9_MAT
+[15:49:42] INFO - Ex21_MAT vs Ex23_MAT
+[15:49:42] INFO - Ex7_MAT vs Ex8_MAT
+[15:49:42] INFO - Ex23_MAT vs Ex8_MAT
+[15:49:42] INFO - Ex22_MAT vs Ex3_MAT
+[15:49:42] INFO - Ex7_MAT vs S4_MAT
+[15:49:42] INFO - Ex8_MAT vs S4_MAT
+[15:49:42] INFO - Ex2_MAT vs Ex8_MAT
+[15:49:42] INFO - Ex21_MAT vs Ex7_MAT
+[15:49:42] INFO - Ex22_MAT vs Ex5_MAT
+[15:49:42] INFO - Ex23_MAT vs Ex4_MAT
+[15:49:43] INFO - Ex23_MAT vs Ex6_MAT
+[15:49:43] INFO - Ex3_MAT vs Ex9_MAT
+[15:49:43] INFO - Ex2_MAT vs Ex4_MAT
+[15:49:43] INFO - Ex22_MAT vs Ex7_MAT
+[15:49:43] INFO - Ex2_MAT vs S4_MAT
+[15:49:43] INFO - Ex2_MAT vs Ex6_MAT
+[15:49:43] INFO - Ex22_MAT vs Ex9_MAT
+[15:49:43] INFO - Ex3_MAT vs Ex7_MAT
+[15:49:43] INFO - Ex23_MAT vs S4_MAT
+[15:49:43] INFO - Ex5_MAT vs Ex8_MAT
+[15:49:43] INFO - Ex19_MAT vs Ex1_MAT
+[15:49:43] INFO - Ex3_MAT vs Ex5_MAT
+[15:49:43] INFO - Ex1_MAT vs Ex20_MAT
+[15:49:43] INFO - Ex4_MAT vs Ex9_MAT
+[15:49:43] INFO - Ex1_MAT vs Ex22_MAT
+[15:49:43] INFO - Ex4_MAT vs Ex7_MAT
+[15:49:43] INFO - Ex1_MAT vs Ex2_MAT
+[15:49:43] INFO - Ex1_MAT vs Ex4_MAT
+[15:49:44] INFO - Ex5_MAT vs S4_MAT
+[15:49:44] INFO - Ex1_MAT vs Ex8_MAT
+[15:49:44] INFO - Ex1_MAT vs S4_MAT
+[15:49:44] INFO - Ex7_MAT vs Ex9_MAT
+[15:49:44] INFO - Ex6_MAT vs Ex8_MAT
+[15:49:44] INFO - Ex6_MAT vs S4_MAT
+[15:49:45] INFO - Ex1_MAT vs Ex6_MAT
+[15:49:45] INFO - Ex8_MAT vs Ex9_MAT
+[15:49:45] INFO - Ex22_MAT vs Ex23_MAT
+[15:49:45] INFO - Ex23_MAT vs Ex2_MAT
+[15:49:45] INFO - Ex4_MAT vs Ex5_MAT
+[15:49:45] INFO - Ex5_MAT vs Ex6_MAT
+[15:49:45] INFO - Ex9_MAT vs S4_MAT
+[15:49:46] INFO - Generating results summary...
+[15:49:46] INFO - Building clustermap.js visualisation
+[15:49:46] INFO - Writing to: plot.html
+[15:49:47] INFO - Done!
+Ex10_MAT vs Ex11_MAT
+--------------------
+Query  Target  Identity  Similarity
+
+Ex10_MAT vs Ex12_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR84_000698-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR84_000699-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR84_000700-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR84_000701-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR84_000702-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR84_000703-T1  1.00      1.00      
+
+Ex10_MAT vs Ex13_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR85_001554-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR85_001555-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR85_001556-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR85_001557-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR85_001558-T1  0.73      0.74      
+ncbi:HRR82_000696-T1  ncbi:HRR85_001559-T1  1.00      1.00      
+
+Ex10_MAT vs Ex14_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR86_000571-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR86_000572-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR86_000574-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR86_000575-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR86_000576-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR86_000577-T1  1.00      1.00      
+
+Ex10_MAT vs Ex15_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR87_001172-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR87_001173-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR87_001174-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR87_001175-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR87_001176-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR87_001177-T1  1.00      1.00      
+
+Ex10_MAT vs Ex16_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR88_000619-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR88_000620-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR88_000621-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR88_000622-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR88_000623-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR88_000624-T1  1.00      1.00      
+
+Ex10_MAT vs Ex17_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR89_001321-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR89_001322-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR89_001324-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR89_001325-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR89_001326-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR89_001327-T1  1.00      1.00      
+
+Ex10_MAT vs Ex18_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR90_001064-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR90_001065-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR90_001067-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR90_001068-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR90_001069-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR90_001070-T1  1.00      1.00      
+
+Ex10_MAT vs Ex19_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR91_000645-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR91_000646-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR91_000647-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR91_000648-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR91_000649-T1  0.73      0.74      
+ncbi:HRR82_000696-T1  ncbi:HRR91_000650-T1  1.00      1.00      
+
+Ex10_MAT vs Ex1_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR73_001089-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR73_001090-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR73_001092-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR73_001093-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR73_001094-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR73_001095-T1  1.00      1.00      
+
+Ex10_MAT vs Ex20_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR92_000714-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR92_000715-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR92_000716-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR92_000717-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR92_000718-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR92_000719-T1  1.00      1.00      
+
+Ex10_MAT vs Ex21_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR93_000613-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR93_000614-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR93_000615-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR93_000616-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR93_000617-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR93_000618-T1  1.00      1.00      
+
+Ex10_MAT vs Ex22_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR94_000297-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR94_000296-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR94_000294-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR94_000293-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR94_000292-T1  0.99      0.99      
+ncbi:HRR82_000696-T1  ncbi:HRR94_000291-T1  1.00      1.00      
+
+Ex10_MAT vs Ex23_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR95_000611-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR95_000612-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR95_000613-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR95_000614-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR95_000615-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR95_000616-T1  1.00      1.00      
+
+Ex10_MAT vs Ex2_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR74_000623-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR74_000624-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR74_000625-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR74_000626-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR74_000627-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR74_000628-T1  1.00      1.00      
+
+Ex10_MAT vs Ex3_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR75_000624-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+
+Ex10_MAT vs Ex4_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR76_000623-T1  0.80      0.81      
+ncbi:HRR82_000696-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex10_MAT vs Ex5_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR77_000635-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex10_MAT vs Ex6_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR78_003181-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex10_MAT vs Ex7_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex10_MAT vs Ex8_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex10_MAT vs Ex9_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR82_000691-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR82_000692-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR82_000693-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR82_000694-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR82_000695-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR82_000696-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex10_MAT vs S4_MAT
+------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex12_MAT
+--------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex13_MAT
+--------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex14_MAT
+--------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex15_MAT
+--------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex16_MAT
+--------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex17_MAT
+--------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex18_MAT
+--------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex19_MAT
+--------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex1_MAT
+-------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex20_MAT
+--------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex21_MAT
+--------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex22_MAT
+--------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex23_MAT
+--------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex2_MAT
+-------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex3_MAT
+-------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex4_MAT
+-------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex5_MAT
+-------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex6_MAT
+-------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex7_MAT
+-------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex8_MAT
+-------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs Ex9_MAT
+-------------------
+Query  Target  Identity  Similarity
+
+Ex11_MAT vs S4_MAT
+------------------
+Query  Target  Identity  Similarity
+
+Ex12_MAT vs Ex13_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR85_001554-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR85_001555-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR85_001556-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR85_001557-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR85_001558-T1  0.73      0.74      
+ncbi:HRR84_000703-T1  ncbi:HRR85_001559-T1  1.00      1.00      
+
+Ex12_MAT vs Ex14_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR86_000571-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR86_000572-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR86_000574-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR86_000575-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR86_000576-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR86_000577-T1  1.00      1.00      
+
+Ex12_MAT vs Ex15_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR87_001172-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR87_001173-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR87_001174-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR87_001175-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR87_001176-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR87_001177-T1  1.00      1.00      
+
+Ex12_MAT vs Ex16_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR88_000619-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR88_000620-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR88_000621-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR88_000622-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR88_000623-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR88_000624-T1  1.00      1.00      
+
+Ex12_MAT vs Ex17_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR89_001321-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR89_001322-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR89_001324-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR89_001325-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR89_001326-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR89_001327-T1  1.00      1.00      
+
+Ex12_MAT vs Ex18_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR90_001064-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR90_001065-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR90_001067-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR90_001068-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR90_001069-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR90_001070-T1  1.00      1.00      
+
+Ex12_MAT vs Ex19_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR91_000645-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR91_000646-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR91_000647-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR91_000648-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR91_000649-T1  0.73      0.74      
+ncbi:HRR84_000703-T1  ncbi:HRR91_000650-T1  1.00      1.00      
+
+Ex12_MAT vs Ex1_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR73_001089-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR73_001090-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR73_001092-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR73_001093-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR73_001094-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR73_001095-T1  1.00      1.00      
+
+Ex12_MAT vs Ex20_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR92_000714-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR92_000715-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR92_000716-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR92_000717-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR92_000718-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR92_000719-T1  1.00      1.00      
+
+Ex12_MAT vs Ex21_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR93_000613-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR93_000614-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR93_000615-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR93_000616-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR93_000617-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR93_000618-T1  1.00      1.00      
+
+Ex12_MAT vs Ex22_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR94_000297-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR94_000296-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR94_000294-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR94_000293-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR94_000292-T1  0.99      0.99      
+ncbi:HRR84_000703-T1  ncbi:HRR94_000291-T1  1.00      1.00      
+
+Ex12_MAT vs Ex23_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR95_000611-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR95_000612-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR95_000613-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR95_000614-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR95_000615-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR95_000616-T1  1.00      1.00      
+
+Ex12_MAT vs Ex2_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR74_000623-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR74_000624-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR74_000625-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR74_000626-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR74_000627-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR74_000628-T1  1.00      1.00      
+
+Ex12_MAT vs Ex3_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR75_000624-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+
+Ex12_MAT vs Ex4_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR76_000623-T1  0.80      0.81      
+ncbi:HRR84_000703-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex12_MAT vs Ex5_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR77_000635-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex12_MAT vs Ex6_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR78_003181-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex12_MAT vs Ex7_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex12_MAT vs Ex8_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex12_MAT vs Ex9_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR84_000698-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR84_000699-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR84_000700-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR84_000701-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR84_000702-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR84_000703-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex12_MAT vs S4_MAT
+------------------
+Query  Target  Identity  Similarity
+
+Ex13_MAT vs Ex14_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR86_000571-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR86_000572-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR86_000574-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR86_000575-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR86_000576-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR86_000577-T1  1.00      1.00      
+
+Ex13_MAT vs Ex15_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR87_001172-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR87_001173-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR87_001174-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR87_001175-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR87_001176-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR87_001177-T1  1.00      1.00      
+
+Ex13_MAT vs Ex16_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR88_000619-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR88_000620-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR88_000621-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR88_000622-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR88_000623-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR88_000624-T1  1.00      1.00      
+
+Ex13_MAT vs Ex17_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR89_001321-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR89_001322-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR89_001324-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR89_001325-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR89_001326-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR89_001327-T1  1.00      1.00      
+
+Ex13_MAT vs Ex18_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR90_001064-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR90_001065-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR90_001067-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR90_001068-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR90_001069-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR90_001070-T1  1.00      1.00      
+
+Ex13_MAT vs Ex19_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR91_000645-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR91_000646-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR91_000647-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR91_000648-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR91_000649-T1  0.99      0.99      
+ncbi:HRR85_001559-T1  ncbi:HRR91_000650-T1  1.00      1.00      
+
+Ex13_MAT vs Ex1_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR73_001089-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR73_001090-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR73_001092-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR73_001093-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR73_001094-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR73_001095-T1  1.00      1.00      
+
+Ex13_MAT vs Ex20_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR92_000714-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR92_000715-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR92_000716-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR92_000717-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR92_000718-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR92_000719-T1  1.00      1.00      
+
+Ex13_MAT vs Ex21_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR93_000613-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR93_000614-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR93_000615-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR93_000616-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR93_000617-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR93_000618-T1  1.00      1.00      
+
+Ex13_MAT vs Ex22_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR94_000297-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR94_000296-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR94_000294-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR94_000293-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR94_000292-T1  0.73      0.75      
+ncbi:HRR85_001559-T1  ncbi:HRR94_000291-T1  1.00      1.00      
+
+Ex13_MAT vs Ex23_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR95_000611-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR95_000612-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR95_000613-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR95_000614-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR95_000615-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR95_000616-T1  1.00      1.00      
+
+Ex13_MAT vs Ex2_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR74_000623-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR74_000624-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR74_000625-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR74_000626-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR74_000627-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR74_000628-T1  1.00      1.00      
+
+Ex13_MAT vs Ex3_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR75_000624-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+
+Ex13_MAT vs Ex4_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR76_000623-T1  0.88      0.89      
+ncbi:HRR85_001559-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex13_MAT vs Ex5_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR77_000635-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex13_MAT vs Ex6_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR78_003181-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex13_MAT vs Ex7_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR79_000294-T1  0.73      0.74      
+
+Ex13_MAT vs Ex8_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR80_000620-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex13_MAT vs Ex9_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR85_001554-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR85_001555-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR85_001556-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR85_001557-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR85_001558-T1  ncbi:HRR81_000291-T1  0.73      0.74      
+ncbi:HRR85_001559-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex13_MAT vs S4_MAT
+------------------
+Query  Target  Identity  Similarity
+
+Ex14_MAT vs Ex15_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR87_001172-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR87_001173-T1  1.00      1.00      
+ncbi:HRR86_000574-T1  ncbi:HRR87_001174-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR87_001175-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR87_001176-T1  1.00      1.00      
+ncbi:HRR86_000577-T1  ncbi:HRR87_001177-T1  1.00      1.00      
+
+Ex14_MAT vs Ex16_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR88_000619-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR88_000620-T1  1.00      1.00      
+ncbi:HRR86_000574-T1  ncbi:HRR88_000621-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR88_000622-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR88_000623-T1  1.00      1.00      
+ncbi:HRR86_000577-T1  ncbi:HRR88_000624-T1  1.00      1.00      
+
+Ex14_MAT vs Ex17_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR89_001321-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR89_001322-T1  1.00      1.00      
+ncbi:HRR86_000573-T1  ncbi:HRR89_001323-T1  0.69      0.69      
+ncbi:HRR86_000574-T1  ncbi:HRR89_001324-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR89_001325-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR89_001326-T1  1.00      1.00      
+ncbi:HRR86_000577-T1  ncbi:HRR89_001327-T1  1.00      1.00      
+
+Ex14_MAT vs Ex18_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR90_001064-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR90_001065-T1  1.00      1.00      
+ncbi:HRR86_000573-T1  ncbi:HRR90_001066-T1  1.00      1.00      
+ncbi:HRR86_000574-T1  ncbi:HRR90_001067-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR90_001068-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR90_001069-T1  1.00      1.00      
+ncbi:HRR86_000577-T1  ncbi:HRR90_001070-T1  1.00      1.00      
+
+Ex14_MAT vs Ex19_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR91_000645-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR91_000646-T1  1.00      1.00      
+ncbi:HRR86_000574-T1  ncbi:HRR91_000647-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR91_000648-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR91_000649-T1  0.73      0.74      
+ncbi:HRR86_000577-T1  ncbi:HRR91_000650-T1  1.00      1.00      
+
+Ex14_MAT vs Ex1_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR73_001089-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR73_001090-T1  1.00      1.00      
+ncbi:HRR86_000573-T1  ncbi:HRR73_001091-T1  1.00      1.00      
+ncbi:HRR86_000574-T1  ncbi:HRR73_001092-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR73_001093-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR73_001094-T1  1.00      1.00      
+ncbi:HRR86_000577-T1  ncbi:HRR73_001095-T1  1.00      1.00      
+
+Ex14_MAT vs Ex20_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR92_000714-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR92_000715-T1  1.00      1.00      
+ncbi:HRR86_000574-T1  ncbi:HRR92_000716-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR92_000717-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR92_000718-T1  1.00      1.00      
+ncbi:HRR86_000577-T1  ncbi:HRR92_000719-T1  1.00      1.00      
+
+Ex14_MAT vs Ex21_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR93_000613-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR93_000614-T1  1.00      1.00      
+ncbi:HRR86_000574-T1  ncbi:HRR93_000615-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR93_000616-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR93_000617-T1  1.00      1.00      
+ncbi:HRR86_000577-T1  ncbi:HRR93_000618-T1  1.00      1.00      
+
+Ex14_MAT vs Ex22_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR94_000297-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR94_000296-T1  1.00      1.00      
+ncbi:HRR86_000573-T1  ncbi:HRR94_000295-T1  0.69      0.69      
+ncbi:HRR86_000574-T1  ncbi:HRR94_000294-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR94_000293-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR94_000292-T1  0.99      0.99      
+ncbi:HRR86_000577-T1  ncbi:HRR94_000291-T1  1.00      1.00      
+
+Ex14_MAT vs Ex23_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR95_000611-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR95_000612-T1  1.00      1.00      
+ncbi:HRR86_000574-T1  ncbi:HRR95_000613-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR95_000614-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR95_000615-T1  1.00      1.00      
+ncbi:HRR86_000577-T1  ncbi:HRR95_000616-T1  1.00      1.00      
+
+Ex14_MAT vs Ex2_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR74_000623-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR74_000624-T1  1.00      1.00      
+ncbi:HRR86_000574-T1  ncbi:HRR74_000625-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR74_000626-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR74_000627-T1  1.00      1.00      
+ncbi:HRR86_000577-T1  ncbi:HRR74_000628-T1  1.00      1.00      
+
+Ex14_MAT vs Ex3_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR86_000574-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR75_000624-T1  1.00      1.00      
+ncbi:HRR86_000577-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+
+Ex14_MAT vs Ex4_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR86_000573-T1  ncbi:HRR76_000620-T1  1.00      1.00      
+ncbi:HRR86_000574-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR76_000623-T1  0.80      0.81      
+ncbi:HRR86_000577-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex14_MAT vs Ex5_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR86_000573-T1  ncbi:HRR77_000632-T1  0.97      0.97      
+ncbi:HRR86_000574-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR77_000635-T1  1.00      1.00      
+ncbi:HRR86_000577-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex14_MAT vs Ex6_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR86_000574-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR78_003181-T1  1.00      1.00      
+ncbi:HRR86_000577-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex14_MAT vs Ex7_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR86_000573-T1  ncbi:HRR79_000297-T1  0.69      0.69      
+ncbi:HRR86_000574-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex14_MAT vs Ex8_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR86_000574-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR86_000577-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex14_MAT vs Ex9_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR86_000571-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR86_000572-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR86_000573-T1  ncbi:HRR81_000294-T1  1.00      1.00      
+ncbi:HRR86_000574-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR86_000575-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR86_000576-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR86_000577-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex14_MAT vs S4_MAT
+------------------
+Query  Target  Identity  Similarity
+
+Ex15_MAT vs Ex16_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR88_000619-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR88_000620-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR88_000621-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR88_000622-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR88_000623-T1  1.00      1.00      
+ncbi:HRR87_001177-T1  ncbi:HRR88_000624-T1  1.00      1.00      
+
+Ex15_MAT vs Ex17_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR89_001321-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR89_001322-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR89_001324-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR89_001325-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR89_001326-T1  1.00      1.00      
+ncbi:HRR87_001177-T1  ncbi:HRR89_001327-T1  1.00      1.00      
+
+Ex15_MAT vs Ex18_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR90_001064-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR90_001065-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR90_001067-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR90_001068-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR90_001069-T1  1.00      1.00      
+ncbi:HRR87_001177-T1  ncbi:HRR90_001070-T1  1.00      1.00      
+
+Ex15_MAT vs Ex19_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR91_000645-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR91_000646-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR91_000647-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR91_000648-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR91_000649-T1  0.73      0.74      
+ncbi:HRR87_001177-T1  ncbi:HRR91_000650-T1  1.00      1.00      
+
+Ex15_MAT vs Ex1_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR73_001089-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR73_001090-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR73_001092-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR73_001093-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR73_001094-T1  1.00      1.00      
+ncbi:HRR87_001177-T1  ncbi:HRR73_001095-T1  1.00      1.00      
+
+Ex15_MAT vs Ex20_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR92_000714-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR92_000715-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR92_000716-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR92_000717-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR92_000718-T1  1.00      1.00      
+ncbi:HRR87_001177-T1  ncbi:HRR92_000719-T1  1.00      1.00      
+
+Ex15_MAT vs Ex21_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR93_000613-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR93_000614-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR93_000615-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR93_000616-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR93_000617-T1  1.00      1.00      
+ncbi:HRR87_001177-T1  ncbi:HRR93_000618-T1  1.00      1.00      
+
+Ex15_MAT vs Ex22_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR94_000297-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR94_000296-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR94_000294-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR94_000293-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR94_000292-T1  0.99      0.99      
+ncbi:HRR87_001177-T1  ncbi:HRR94_000291-T1  1.00      1.00      
+
+Ex15_MAT vs Ex23_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR95_000611-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR95_000612-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR95_000613-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR95_000614-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR95_000615-T1  1.00      1.00      
+ncbi:HRR87_001177-T1  ncbi:HRR95_000616-T1  1.00      1.00      
+
+Ex15_MAT vs Ex2_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR74_000623-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR74_000624-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR74_000625-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR74_000626-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR74_000627-T1  1.00      1.00      
+ncbi:HRR87_001177-T1  ncbi:HRR74_000628-T1  1.00      1.00      
+
+Ex15_MAT vs Ex3_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR75_000624-T1  1.00      1.00      
+ncbi:HRR87_001177-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+
+Ex15_MAT vs Ex4_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR76_000623-T1  0.80      0.81      
+ncbi:HRR87_001177-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex15_MAT vs Ex5_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR77_000635-T1  1.00      1.00      
+ncbi:HRR87_001177-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex15_MAT vs Ex6_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR78_003181-T1  1.00      1.00      
+ncbi:HRR87_001177-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex15_MAT vs Ex7_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex15_MAT vs Ex8_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR87_001177-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex15_MAT vs Ex9_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR87_001172-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR87_001173-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR87_001174-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR87_001175-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR87_001176-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR87_001177-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex15_MAT vs S4_MAT
+------------------
+Query  Target  Identity  Similarity
+
+Ex16_MAT vs Ex17_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR89_001321-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR89_001322-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR89_001324-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR89_001325-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR89_001326-T1  1.00      1.00      
+ncbi:HRR88_000624-T1  ncbi:HRR89_001327-T1  1.00      1.00      
+
+Ex16_MAT vs Ex18_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR90_001064-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR90_001065-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR90_001067-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR90_001068-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR90_001069-T1  1.00      1.00      
+ncbi:HRR88_000624-T1  ncbi:HRR90_001070-T1  1.00      1.00      
+
+Ex16_MAT vs Ex19_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR91_000645-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR91_000646-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR91_000647-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR91_000648-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR91_000649-T1  0.73      0.74      
+ncbi:HRR88_000624-T1  ncbi:HRR91_000650-T1  1.00      1.00      
+
+Ex16_MAT vs Ex1_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR73_001089-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR73_001090-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR73_001092-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR73_001093-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR73_001094-T1  1.00      1.00      
+ncbi:HRR88_000624-T1  ncbi:HRR73_001095-T1  1.00      1.00      
+
+Ex16_MAT vs Ex20_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR92_000714-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR92_000715-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR92_000716-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR92_000717-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR92_000718-T1  1.00      1.00      
+ncbi:HRR88_000624-T1  ncbi:HRR92_000719-T1  1.00      1.00      
+
+Ex16_MAT vs Ex21_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR93_000613-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR93_000614-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR93_000615-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR93_000616-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR93_000617-T1  1.00      1.00      
+ncbi:HRR88_000624-T1  ncbi:HRR93_000618-T1  1.00      1.00      
+
+Ex16_MAT vs Ex22_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR94_000297-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR94_000296-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR94_000294-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR94_000293-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR94_000292-T1  0.99      0.99      
+ncbi:HRR88_000624-T1  ncbi:HRR94_000291-T1  1.00      1.00      
+
+Ex16_MAT vs Ex23_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR95_000611-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR95_000612-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR95_000613-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR95_000614-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR95_000615-T1  1.00      1.00      
+ncbi:HRR88_000624-T1  ncbi:HRR95_000616-T1  1.00      1.00      
+
+Ex16_MAT vs Ex2_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR74_000623-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR74_000624-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR74_000625-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR74_000626-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR74_000627-T1  1.00      1.00      
+ncbi:HRR88_000624-T1  ncbi:HRR74_000628-T1  1.00      1.00      
+
+Ex16_MAT vs Ex3_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR75_000624-T1  1.00      1.00      
+ncbi:HRR88_000624-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+
+Ex16_MAT vs Ex4_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR76_000623-T1  0.80      0.81      
+ncbi:HRR88_000624-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex16_MAT vs Ex5_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR77_000635-T1  1.00      1.00      
+ncbi:HRR88_000624-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex16_MAT vs Ex6_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR78_003181-T1  1.00      1.00      
+ncbi:HRR88_000624-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex16_MAT vs Ex7_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex16_MAT vs Ex8_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR88_000624-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex16_MAT vs Ex9_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR88_000619-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR88_000620-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR88_000621-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR88_000622-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR88_000623-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR88_000624-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex16_MAT vs S4_MAT
+------------------
+Query  Target  Identity  Similarity
+
+Ex17_MAT vs Ex18_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR90_001064-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR90_001065-T1  1.00      1.00      
+ncbi:HRR89_001323-T1  ncbi:HRR90_001066-T1  0.69      0.69      
+ncbi:HRR89_001324-T1  ncbi:HRR90_001067-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR90_001068-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR90_001069-T1  1.00      1.00      
+ncbi:HRR89_001327-T1  ncbi:HRR90_001070-T1  1.00      1.00      
+
+Ex17_MAT vs Ex19_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR91_000645-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR91_000646-T1  1.00      1.00      
+ncbi:HRR89_001324-T1  ncbi:HRR91_000647-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR91_000648-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR91_000649-T1  0.73      0.74      
+ncbi:HRR89_001327-T1  ncbi:HRR91_000650-T1  1.00      1.00      
+
+Ex17_MAT vs Ex1_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR73_001089-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR73_001090-T1  1.00      1.00      
+ncbi:HRR89_001323-T1  ncbi:HRR73_001091-T1  0.69      0.69      
+ncbi:HRR89_001324-T1  ncbi:HRR73_001092-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR73_001093-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR73_001094-T1  1.00      1.00      
+ncbi:HRR89_001327-T1  ncbi:HRR73_001095-T1  1.00      1.00      
+
+Ex17_MAT vs Ex20_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR92_000714-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR92_000715-T1  1.00      1.00      
+ncbi:HRR89_001324-T1  ncbi:HRR92_000716-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR92_000717-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR92_000718-T1  1.00      1.00      
+ncbi:HRR89_001327-T1  ncbi:HRR92_000719-T1  1.00      1.00      
+
+Ex17_MAT vs Ex21_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR93_000613-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR93_000614-T1  1.00      1.00      
+ncbi:HRR89_001324-T1  ncbi:HRR93_000615-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR93_000616-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR93_000617-T1  1.00      1.00      
+ncbi:HRR89_001327-T1  ncbi:HRR93_000618-T1  1.00      1.00      
+
+Ex17_MAT vs Ex22_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR94_000297-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR94_000296-T1  1.00      1.00      
+ncbi:HRR89_001323-T1  ncbi:HRR94_000295-T1  1.00      1.00      
+ncbi:HRR89_001324-T1  ncbi:HRR94_000294-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR94_000293-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR94_000292-T1  0.99      0.99      
+ncbi:HRR89_001327-T1  ncbi:HRR94_000291-T1  1.00      1.00      
+
+Ex17_MAT vs Ex23_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR95_000611-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR95_000612-T1  1.00      1.00      
+ncbi:HRR89_001324-T1  ncbi:HRR95_000613-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR95_000614-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR95_000615-T1  1.00      1.00      
+ncbi:HRR89_001327-T1  ncbi:HRR95_000616-T1  1.00      1.00      
+
+Ex17_MAT vs Ex2_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR74_000623-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR74_000624-T1  1.00      1.00      
+ncbi:HRR89_001324-T1  ncbi:HRR74_000625-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR74_000626-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR74_000627-T1  1.00      1.00      
+ncbi:HRR89_001327-T1  ncbi:HRR74_000628-T1  1.00      1.00      
+
+Ex17_MAT vs Ex3_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR89_001324-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR75_000624-T1  1.00      1.00      
+ncbi:HRR89_001327-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+
+Ex17_MAT vs Ex4_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR89_001323-T1  ncbi:HRR76_000620-T1  0.69      0.69      
+ncbi:HRR89_001324-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR76_000623-T1  0.80      0.81      
+ncbi:HRR89_001327-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex17_MAT vs Ex5_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR89_001323-T1  ncbi:HRR77_000632-T1  0.68      0.68      
+ncbi:HRR89_001324-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR77_000635-T1  1.00      1.00      
+ncbi:HRR89_001327-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex17_MAT vs Ex6_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR89_001324-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR78_003181-T1  1.00      1.00      
+ncbi:HRR89_001327-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex17_MAT vs Ex7_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR89_001323-T1  ncbi:HRR79_000297-T1  1.00      1.00      
+ncbi:HRR89_001324-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex17_MAT vs Ex8_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR89_001324-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR89_001327-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex17_MAT vs Ex9_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR89_001321-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR89_001322-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR89_001323-T1  ncbi:HRR81_000294-T1  0.69      0.69      
+ncbi:HRR89_001324-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR89_001325-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR89_001326-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR89_001327-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex17_MAT vs S4_MAT
+------------------
+Query  Target  Identity  Similarity
+
+Ex18_MAT vs Ex19_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR90_001064-T1  ncbi:HRR91_000645-T1  1.00      1.00      
+ncbi:HRR90_001065-T1  ncbi:HRR91_000646-T1  1.00      1.00      
+ncbi:HRR90_001067-T1  ncbi:HRR91_000647-T1  1.00      1.00      
+ncbi:HRR90_001068-T1  ncbi:HRR91_000648-T1  1.00      1.00      
+ncbi:HRR90_001069-T1  ncbi:HRR91_000649-T1  0.73      0.74      
+ncbi:HRR90_001070-T1  ncbi:HRR91_000650-T1  1.00      1.00      
+
+Ex18_MAT vs Ex1_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR90_001064-T1  ncbi:HRR73_001089-T1  1.00      1.00      
+ncbi:HRR90_001065-T1  ncbi:HRR73_001090-T1  1.00      1.00      
+ncbi:HRR90_001066-T1  ncbi:HRR73_001091-T1  1.00      1.00      
+ncbi:HRR90_001067-T1  ncbi:HRR73_001092-T1  1.00      1.00      
+ncbi:HRR90_001068-T1  ncbi:HRR73_001093-T1  1.00      1.00      
+ncbi:HRR90_001069-T1  ncbi:HRR73_001094-T1  1.00      1.00      
+ncbi:HRR90_001070-T1  ncbi:HRR73_001095-T1  1.00      1.00      
+
+Ex18_MAT vs Ex20_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR90_001064-T1  ncbi:HRR92_000714-T1  1.00      1.00      
+ncbi:HRR90_001065-T1  ncbi:HRR92_000715-T1  1.00      1.00      
+ncbi:HRR90_001067-T1  ncbi:HRR92_000716-T1  1.00      1.00      
+ncbi:HRR90_001068-T1  ncbi:HRR92_000717-T1  1.00      1.00      
+ncbi:HRR90_001069-T1  ncbi:HRR92_000718-T1  1.00      1.00      
+ncbi:HRR90_001070-T1  ncbi:HRR92_000719-T1  1.00      1.00      
+
+Ex18_MAT vs Ex21_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR90_001064-T1  ncbi:HRR93_000613-T1  1.00      1.00      
+ncbi:HRR90_001065-T1  ncbi:HRR93_000614-T1  1.00      1.00      
+ncbi:HRR90_001067-T1  ncbi:HRR93_000615-T1  1.00      1.00      
+ncbi:HRR90_001068-T1  ncbi:HRR93_000616-T1  1.00      1.00      
+ncbi:HRR90_001069-T1  ncbi:HRR93_000617-T1  1.00      1.00      
+ncbi:HRR90_001070-T1  ncbi:HRR93_000618-T1  1.00      1.00      
+
+Ex18_MAT vs Ex22_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR90_001064-T1  ncbi:HRR94_000297-T1  1.00      1.00      
+ncbi:HRR90_001065-T1  ncbi:HRR94_000296-T1  1.00      1.00      
+ncbi:HRR90_001066-T1  ncbi:HRR94_000295-T1  0.69      0.69      
+ncbi:HRR90_001067-T1  ncbi:HRR94_000294-T1  1.00      1.00      
+ncbi:HRR90_001068-T1  ncbi:HRR94_000293-T1  1.00      1.00      
+ncbi:HRR90_001069-T1  ncbi:HRR94_000292-T1  0.99      0.99      
+ncbi:HRR90_001070-T1  ncbi:HRR94_000291-T1  1.00      1.00      
+
+Ex18_MAT vs Ex23_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR90_001064-T1  ncbi:HRR95_000611-T1  1.00      1.00      
+ncbi:HRR90_001065-T1  ncbi:HRR95_000612-T1  1.00      1.00      
+ncbi:HRR90_001067-T1  ncbi:HRR95_000613-T1  1.00      1.00      
+ncbi:HRR90_001068-T1  ncbi:HRR95_000614-T1  1.00      1.00      
+ncbi:HRR90_001069-T1  ncbi:HRR95_000615-T1  1.00      1.00      
+ncbi:HRR90_001070-T1  ncbi:HRR95_000616-T1  1.00      1.00      
+
+Ex18_MAT vs Ex2_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR90_001064-T1  ncbi:HRR74_000623-T1  1.00      1.00      
+ncbi:HRR90_001065-T1  ncbi:HRR74_000624-T1  1.00      1.00      
+ncbi:HRR90_001067-T1  ncbi:HRR74_000625-T1  1.00      1.00      
+ncbi:HRR90_001068-T1  ncbi:HRR74_000626-T1  1.00      1.00      
+ncbi:HRR90_001069-T1  ncbi:HRR74_000627-T1  1.00      1.00      
+ncbi:HRR90_001070-T1  ncbi:HRR74_000628-T1  1.00      1.00      
+
+Ex18_MAT vs Ex3_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR90_001064-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+ncbi:HRR90_001065-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR90_001067-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR90_001068-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR90_001069-T1  ncbi:HRR75_000624-T1  1.00      1.00      
+ncbi:HRR90_001070-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+
+Ex18_MAT vs Ex4_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR90_001064-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR90_001065-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR90_001066-T1  ncbi:HRR76_000620-T1  1.00      1.00      
+ncbi:HRR90_001067-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR90_001068-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR90_001069-T1  ncbi:HRR76_000623-T1  0.80      0.81      
+ncbi:HRR90_001070-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex18_MAT vs Ex5_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR90_001064-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR90_001065-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR90_001066-T1  ncbi:HRR77_000632-T1  0.97      0.97      
+ncbi:HRR90_001067-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR90_001068-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR90_001069-T1  ncbi:HRR77_000635-T1  1.00      1.00      
+ncbi:HRR90_001070-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex18_MAT vs Ex6_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR90_001064-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR90_001065-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR90_001067-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR90_001068-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR90_001069-T1  ncbi:HRR78_003181-T1  1.00      1.00      
+ncbi:HRR90_001070-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex18_MAT vs Ex7_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR90_001064-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR90_001065-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR90_001066-T1  ncbi:HRR79_000297-T1  0.69      0.69      
+ncbi:HRR90_001067-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR90_001068-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR90_001069-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex18_MAT vs Ex8_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR90_001064-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR90_001065-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR90_001067-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR90_001068-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR90_001069-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR90_001070-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex18_MAT vs Ex9_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR90_001064-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR90_001065-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR90_001066-T1  ncbi:HRR81_000294-T1  1.00      1.00      
+ncbi:HRR90_001067-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR90_001068-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR90_001069-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR90_001070-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex18_MAT vs S4_MAT
+------------------
+Query  Target  Identity  Similarity
+
+Ex19_MAT vs Ex1_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR91_000645-T1  ncbi:HRR73_001089-T1  1.00      1.00      
+ncbi:HRR91_000646-T1  ncbi:HRR73_001090-T1  1.00      1.00      
+ncbi:HRR91_000647-T1  ncbi:HRR73_001092-T1  1.00      1.00      
+ncbi:HRR91_000648-T1  ncbi:HRR73_001093-T1  1.00      1.00      
+ncbi:HRR91_000649-T1  ncbi:HRR73_001094-T1  0.73      0.74      
+ncbi:HRR91_000650-T1  ncbi:HRR73_001095-T1  1.00      1.00      
+
+Ex19_MAT vs Ex20_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR91_000645-T1  ncbi:HRR92_000714-T1  1.00      1.00      
+ncbi:HRR91_000646-T1  ncbi:HRR92_000715-T1  1.00      1.00      
+ncbi:HRR91_000647-T1  ncbi:HRR92_000716-T1  1.00      1.00      
+ncbi:HRR91_000648-T1  ncbi:HRR92_000717-T1  1.00      1.00      
+ncbi:HRR91_000649-T1  ncbi:HRR92_000718-T1  0.73      0.74      
+ncbi:HRR91_000650-T1  ncbi:HRR92_000719-T1  1.00      1.00      
+
+Ex19_MAT vs Ex21_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR91_000645-T1  ncbi:HRR93_000613-T1  1.00      1.00      
+ncbi:HRR91_000646-T1  ncbi:HRR93_000614-T1  1.00      1.00      
+ncbi:HRR91_000647-T1  ncbi:HRR93_000615-T1  1.00      1.00      
+ncbi:HRR91_000648-T1  ncbi:HRR93_000616-T1  1.00      1.00      
+ncbi:HRR91_000649-T1  ncbi:HRR93_000617-T1  0.73      0.74      
+ncbi:HRR91_000650-T1  ncbi:HRR93_000618-T1  1.00      1.00      
+
+Ex19_MAT vs Ex22_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR91_000645-T1  ncbi:HRR94_000297-T1  1.00      1.00      
+ncbi:HRR91_000646-T1  ncbi:HRR94_000296-T1  1.00      1.00      
+ncbi:HRR91_000647-T1  ncbi:HRR94_000294-T1  1.00      1.00      
+ncbi:HRR91_000648-T1  ncbi:HRR94_000293-T1  1.00      1.00      
+ncbi:HRR91_000649-T1  ncbi:HRR94_000292-T1  0.73      0.74      
+ncbi:HRR91_000650-T1  ncbi:HRR94_000291-T1  1.00      1.00      
+
+Ex19_MAT vs Ex23_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR91_000645-T1  ncbi:HRR95_000611-T1  1.00      1.00      
+ncbi:HRR91_000646-T1  ncbi:HRR95_000612-T1  1.00      1.00      
+ncbi:HRR91_000647-T1  ncbi:HRR95_000613-T1  1.00      1.00      
+ncbi:HRR91_000648-T1  ncbi:HRR95_000614-T1  1.00      1.00      
+ncbi:HRR91_000649-T1  ncbi:HRR95_000615-T1  0.73      0.74      
+ncbi:HRR91_000650-T1  ncbi:HRR95_000616-T1  1.00      1.00      
+
+Ex19_MAT vs Ex2_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR91_000645-T1  ncbi:HRR74_000623-T1  1.00      1.00      
+ncbi:HRR91_000646-T1  ncbi:HRR74_000624-T1  1.00      1.00      
+ncbi:HRR91_000647-T1  ncbi:HRR74_000625-T1  1.00      1.00      
+ncbi:HRR91_000648-T1  ncbi:HRR74_000626-T1  1.00      1.00      
+ncbi:HRR91_000649-T1  ncbi:HRR74_000627-T1  0.73      0.74      
+ncbi:HRR91_000650-T1  ncbi:HRR74_000628-T1  1.00      1.00      
+
+Ex19_MAT vs Ex3_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR91_000645-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+ncbi:HRR91_000646-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR91_000647-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR91_000648-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR91_000649-T1  ncbi:HRR75_000624-T1  0.73      0.74      
+ncbi:HRR91_000650-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+
+Ex19_MAT vs Ex4_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR91_000645-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR91_000646-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR91_000647-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR91_000648-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR91_000649-T1  ncbi:HRR76_000623-T1  0.87      0.88      
+ncbi:HRR91_000650-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex19_MAT vs Ex5_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR91_000645-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR91_000646-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR91_000647-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR91_000648-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR91_000649-T1  ncbi:HRR77_000635-T1  0.73      0.74      
+ncbi:HRR91_000650-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex19_MAT vs Ex6_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR91_000645-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR91_000646-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR91_000647-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR91_000648-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR91_000649-T1  ncbi:HRR78_003181-T1  0.73      0.74      
+ncbi:HRR91_000650-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex19_MAT vs Ex7_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR91_000645-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR91_000646-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR91_000647-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR91_000648-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR91_000649-T1  ncbi:HRR79_000294-T1  0.73      0.74      
+
+Ex19_MAT vs Ex8_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR91_000645-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR91_000646-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR91_000647-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR91_000648-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR91_000649-T1  ncbi:HRR80_000620-T1  0.73      0.74      
+ncbi:HRR91_000650-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex19_MAT vs Ex9_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR91_000645-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR91_000646-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR91_000647-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR91_000648-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR91_000649-T1  ncbi:HRR81_000291-T1  0.73      0.74      
+ncbi:HRR91_000650-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex19_MAT vs S4_MAT
+------------------
+Query  Target  Identity  Similarity
+
+Ex1_MAT vs Ex20_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR73_001089-T1  ncbi:HRR92_000714-T1  1.00      1.00      
+ncbi:HRR73_001090-T1  ncbi:HRR92_000715-T1  1.00      1.00      
+ncbi:HRR73_001092-T1  ncbi:HRR92_000716-T1  1.00      1.00      
+ncbi:HRR73_001093-T1  ncbi:HRR92_000717-T1  1.00      1.00      
+ncbi:HRR73_001094-T1  ncbi:HRR92_000718-T1  1.00      1.00      
+ncbi:HRR73_001095-T1  ncbi:HRR92_000719-T1  1.00      1.00      
+
+Ex1_MAT vs Ex21_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR73_001089-T1  ncbi:HRR93_000613-T1  1.00      1.00      
+ncbi:HRR73_001090-T1  ncbi:HRR93_000614-T1  1.00      1.00      
+ncbi:HRR73_001092-T1  ncbi:HRR93_000615-T1  1.00      1.00      
+ncbi:HRR73_001093-T1  ncbi:HRR93_000616-T1  1.00      1.00      
+ncbi:HRR73_001094-T1  ncbi:HRR93_000617-T1  1.00      1.00      
+ncbi:HRR73_001095-T1  ncbi:HRR93_000618-T1  1.00      1.00      
+
+Ex1_MAT vs Ex22_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR73_001089-T1  ncbi:HRR94_000297-T1  1.00      1.00      
+ncbi:HRR73_001090-T1  ncbi:HRR94_000296-T1  1.00      1.00      
+ncbi:HRR73_001091-T1  ncbi:HRR94_000295-T1  0.69      0.69      
+ncbi:HRR73_001092-T1  ncbi:HRR94_000294-T1  1.00      1.00      
+ncbi:HRR73_001093-T1  ncbi:HRR94_000293-T1  1.00      1.00      
+ncbi:HRR73_001094-T1  ncbi:HRR94_000292-T1  0.99      0.99      
+ncbi:HRR73_001095-T1  ncbi:HRR94_000291-T1  1.00      1.00      
+
+Ex1_MAT vs Ex23_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR73_001089-T1  ncbi:HRR95_000611-T1  1.00      1.00      
+ncbi:HRR73_001090-T1  ncbi:HRR95_000612-T1  1.00      1.00      
+ncbi:HRR73_001092-T1  ncbi:HRR95_000613-T1  1.00      1.00      
+ncbi:HRR73_001093-T1  ncbi:HRR95_000614-T1  1.00      1.00      
+ncbi:HRR73_001094-T1  ncbi:HRR95_000615-T1  1.00      1.00      
+ncbi:HRR73_001095-T1  ncbi:HRR95_000616-T1  1.00      1.00      
+
+Ex1_MAT vs Ex2_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR73_001089-T1  ncbi:HRR74_000623-T1  1.00      1.00      
+ncbi:HRR73_001090-T1  ncbi:HRR74_000624-T1  1.00      1.00      
+ncbi:HRR73_001092-T1  ncbi:HRR74_000625-T1  1.00      1.00      
+ncbi:HRR73_001093-T1  ncbi:HRR74_000626-T1  1.00      1.00      
+ncbi:HRR73_001094-T1  ncbi:HRR74_000627-T1  1.00      1.00      
+ncbi:HRR73_001095-T1  ncbi:HRR74_000628-T1  1.00      1.00      
+
+Ex1_MAT vs Ex3_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR73_001089-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+ncbi:HRR73_001090-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR73_001092-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR73_001093-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR73_001094-T1  ncbi:HRR75_000624-T1  1.00      1.00      
+ncbi:HRR73_001095-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+
+Ex1_MAT vs Ex4_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR73_001089-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR73_001090-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR73_001091-T1  ncbi:HRR76_000620-T1  1.00      1.00      
+ncbi:HRR73_001092-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR73_001093-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR73_001094-T1  ncbi:HRR76_000623-T1  0.80      0.81      
+ncbi:HRR73_001095-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex1_MAT vs Ex5_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR73_001089-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR73_001090-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR73_001091-T1  ncbi:HRR77_000632-T1  0.97      0.97      
+ncbi:HRR73_001092-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR73_001093-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR73_001094-T1  ncbi:HRR77_000635-T1  1.00      1.00      
+ncbi:HRR73_001095-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex1_MAT vs Ex6_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR73_001089-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR73_001090-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR73_001092-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR73_001093-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR73_001094-T1  ncbi:HRR78_003181-T1  1.00      1.00      
+ncbi:HRR73_001095-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex1_MAT vs Ex7_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR73_001089-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR73_001090-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR73_001091-T1  ncbi:HRR79_000297-T1  0.69      0.69      
+ncbi:HRR73_001092-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR73_001093-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR73_001094-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex1_MAT vs Ex8_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR73_001089-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR73_001090-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR73_001092-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR73_001093-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR73_001094-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR73_001095-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex1_MAT vs Ex9_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR73_001089-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR73_001090-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR73_001091-T1  ncbi:HRR81_000294-T1  1.00      1.00      
+ncbi:HRR73_001092-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR73_001093-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR73_001094-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR73_001095-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex1_MAT vs S4_MAT
+-----------------
+Query  Target  Identity  Similarity
+
+Ex20_MAT vs Ex21_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR92_000714-T1  ncbi:HRR93_000613-T1  1.00      1.00      
+ncbi:HRR92_000715-T1  ncbi:HRR93_000614-T1  1.00      1.00      
+ncbi:HRR92_000716-T1  ncbi:HRR93_000615-T1  1.00      1.00      
+ncbi:HRR92_000717-T1  ncbi:HRR93_000616-T1  1.00      1.00      
+ncbi:HRR92_000718-T1  ncbi:HRR93_000617-T1  1.00      1.00      
+ncbi:HRR92_000719-T1  ncbi:HRR93_000618-T1  1.00      1.00      
+
+Ex20_MAT vs Ex22_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR92_000714-T1  ncbi:HRR94_000297-T1  1.00      1.00      
+ncbi:HRR92_000715-T1  ncbi:HRR94_000296-T1  1.00      1.00      
+ncbi:HRR92_000716-T1  ncbi:HRR94_000294-T1  1.00      1.00      
+ncbi:HRR92_000717-T1  ncbi:HRR94_000293-T1  1.00      1.00      
+ncbi:HRR92_000718-T1  ncbi:HRR94_000292-T1  0.99      0.99      
+ncbi:HRR92_000719-T1  ncbi:HRR94_000291-T1  1.00      1.00      
+
+Ex20_MAT vs Ex23_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR92_000714-T1  ncbi:HRR95_000611-T1  1.00      1.00      
+ncbi:HRR92_000715-T1  ncbi:HRR95_000612-T1  1.00      1.00      
+ncbi:HRR92_000716-T1  ncbi:HRR95_000613-T1  1.00      1.00      
+ncbi:HRR92_000717-T1  ncbi:HRR95_000614-T1  1.00      1.00      
+ncbi:HRR92_000718-T1  ncbi:HRR95_000615-T1  1.00      1.00      
+ncbi:HRR92_000719-T1  ncbi:HRR95_000616-T1  1.00      1.00      
+
+Ex20_MAT vs Ex2_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR92_000714-T1  ncbi:HRR74_000623-T1  1.00      1.00      
+ncbi:HRR92_000715-T1  ncbi:HRR74_000624-T1  1.00      1.00      
+ncbi:HRR92_000716-T1  ncbi:HRR74_000625-T1  1.00      1.00      
+ncbi:HRR92_000717-T1  ncbi:HRR74_000626-T1  1.00      1.00      
+ncbi:HRR92_000718-T1  ncbi:HRR74_000627-T1  1.00      1.00      
+ncbi:HRR92_000719-T1  ncbi:HRR74_000628-T1  1.00      1.00      
+
+Ex20_MAT vs Ex3_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR92_000714-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+ncbi:HRR92_000715-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR92_000716-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR92_000717-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR92_000718-T1  ncbi:HRR75_000624-T1  1.00      1.00      
+ncbi:HRR92_000719-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+
+Ex20_MAT vs Ex4_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR92_000714-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR92_000715-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR92_000716-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR92_000717-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR92_000718-T1  ncbi:HRR76_000623-T1  0.80      0.81      
+ncbi:HRR92_000719-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex20_MAT vs Ex5_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR92_000714-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR92_000715-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR92_000716-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR92_000717-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR92_000718-T1  ncbi:HRR77_000635-T1  1.00      1.00      
+ncbi:HRR92_000719-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex20_MAT vs Ex6_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR92_000714-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR92_000715-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR92_000716-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR92_000717-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR92_000718-T1  ncbi:HRR78_003181-T1  1.00      1.00      
+ncbi:HRR92_000719-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex20_MAT vs Ex7_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR92_000714-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR92_000715-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR92_000716-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR92_000717-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR92_000718-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex20_MAT vs Ex8_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR92_000714-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR92_000715-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR92_000716-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR92_000717-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR92_000718-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR92_000719-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex20_MAT vs Ex9_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR92_000714-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR92_000715-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR92_000716-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR92_000717-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR92_000718-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR92_000719-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex20_MAT vs S4_MAT
+------------------
+Query  Target  Identity  Similarity
+
+Ex21_MAT vs Ex22_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR93_000613-T1  ncbi:HRR94_000297-T1  1.00      1.00      
+ncbi:HRR93_000614-T1  ncbi:HRR94_000296-T1  1.00      1.00      
+ncbi:HRR93_000615-T1  ncbi:HRR94_000294-T1  1.00      1.00      
+ncbi:HRR93_000616-T1  ncbi:HRR94_000293-T1  1.00      1.00      
+ncbi:HRR93_000617-T1  ncbi:HRR94_000292-T1  0.99      0.99      
+ncbi:HRR93_000618-T1  ncbi:HRR94_000291-T1  1.00      1.00      
+
+Ex21_MAT vs Ex23_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR93_000613-T1  ncbi:HRR95_000611-T1  1.00      1.00      
+ncbi:HRR93_000614-T1  ncbi:HRR95_000612-T1  1.00      1.00      
+ncbi:HRR93_000615-T1  ncbi:HRR95_000613-T1  1.00      1.00      
+ncbi:HRR93_000616-T1  ncbi:HRR95_000614-T1  1.00      1.00      
+ncbi:HRR93_000617-T1  ncbi:HRR95_000615-T1  1.00      1.00      
+ncbi:HRR93_000618-T1  ncbi:HRR95_000616-T1  1.00      1.00      
+
+Ex21_MAT vs Ex2_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR93_000613-T1  ncbi:HRR74_000623-T1  1.00      1.00      
+ncbi:HRR93_000614-T1  ncbi:HRR74_000624-T1  1.00      1.00      
+ncbi:HRR93_000615-T1  ncbi:HRR74_000625-T1  1.00      1.00      
+ncbi:HRR93_000616-T1  ncbi:HRR74_000626-T1  1.00      1.00      
+ncbi:HRR93_000617-T1  ncbi:HRR74_000627-T1  1.00      1.00      
+ncbi:HRR93_000618-T1  ncbi:HRR74_000628-T1  1.00      1.00      
+
+Ex21_MAT vs Ex3_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR93_000613-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+ncbi:HRR93_000614-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR93_000615-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR93_000616-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR93_000617-T1  ncbi:HRR75_000624-T1  1.00      1.00      
+ncbi:HRR93_000618-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+
+Ex21_MAT vs Ex4_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR93_000613-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR93_000614-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR93_000615-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR93_000616-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR93_000617-T1  ncbi:HRR76_000623-T1  0.80      0.81      
+ncbi:HRR93_000618-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex21_MAT vs Ex5_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR93_000613-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR93_000614-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR93_000615-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR93_000616-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR93_000617-T1  ncbi:HRR77_000635-T1  1.00      1.00      
+ncbi:HRR93_000618-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex21_MAT vs Ex6_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR93_000613-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR93_000614-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR93_000615-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR93_000616-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR93_000617-T1  ncbi:HRR78_003181-T1  1.00      1.00      
+ncbi:HRR93_000618-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex21_MAT vs Ex7_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR93_000613-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR93_000614-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR93_000615-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR93_000616-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR93_000617-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex21_MAT vs Ex8_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR93_000613-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR93_000614-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR93_000615-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR93_000616-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR93_000617-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR93_000618-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex21_MAT vs Ex9_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR93_000613-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR93_000614-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR93_000615-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR93_000616-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR93_000617-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR93_000618-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex21_MAT vs S4_MAT
+------------------
+Query  Target  Identity  Similarity
+
+Ex22_MAT vs Ex23_MAT
+--------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR94_000291-T1  ncbi:HRR95_000616-T1  1.00      1.00      
+ncbi:HRR94_000292-T1  ncbi:HRR95_000615-T1  0.99      0.99      
+ncbi:HRR94_000293-T1  ncbi:HRR95_000614-T1  1.00      1.00      
+ncbi:HRR94_000294-T1  ncbi:HRR95_000613-T1  1.00      1.00      
+ncbi:HRR94_000296-T1  ncbi:HRR95_000612-T1  1.00      1.00      
+ncbi:HRR94_000297-T1  ncbi:HRR95_000611-T1  1.00      1.00      
+
+Ex22_MAT vs Ex2_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR94_000291-T1  ncbi:HRR74_000628-T1  1.00      1.00      
+ncbi:HRR94_000292-T1  ncbi:HRR74_000627-T1  0.99      0.99      
+ncbi:HRR94_000293-T1  ncbi:HRR74_000626-T1  1.00      1.00      
+ncbi:HRR94_000294-T1  ncbi:HRR74_000625-T1  1.00      1.00      
+ncbi:HRR94_000296-T1  ncbi:HRR74_000624-T1  1.00      1.00      
+ncbi:HRR94_000297-T1  ncbi:HRR74_000623-T1  1.00      1.00      
+
+Ex22_MAT vs Ex3_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR94_000291-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+ncbi:HRR94_000292-T1  ncbi:HRR75_000624-T1  0.99      0.99      
+ncbi:HRR94_000293-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR94_000294-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR94_000296-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR94_000297-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+
+Ex22_MAT vs Ex4_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR94_000291-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+ncbi:HRR94_000292-T1  ncbi:HRR76_000623-T1  0.81      0.82      
+ncbi:HRR94_000293-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR94_000294-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR94_000295-T1  ncbi:HRR76_000620-T1  0.69      0.69      
+ncbi:HRR94_000296-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR94_000297-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+
+Ex22_MAT vs Ex5_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR94_000291-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+ncbi:HRR94_000292-T1  ncbi:HRR77_000635-T1  0.99      0.99      
+ncbi:HRR94_000293-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR94_000294-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR94_000295-T1  ncbi:HRR77_000632-T1  0.68      0.68      
+ncbi:HRR94_000296-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR94_000297-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+
+Ex22_MAT vs Ex6_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR94_000291-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+ncbi:HRR94_000292-T1  ncbi:HRR78_003181-T1  0.99      0.99      
+ncbi:HRR94_000293-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR94_000294-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR94_000296-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR94_000297-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+
+Ex22_MAT vs Ex7_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR94_000292-T1  ncbi:HRR79_000294-T1  0.99      0.99      
+ncbi:HRR94_000293-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR94_000294-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR94_000295-T1  ncbi:HRR79_000297-T1  1.00      1.00      
+ncbi:HRR94_000296-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR94_000297-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+
+Ex22_MAT vs Ex8_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR94_000291-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+ncbi:HRR94_000292-T1  ncbi:HRR80_000620-T1  0.99      0.99      
+ncbi:HRR94_000293-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR94_000294-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR94_000296-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR94_000297-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+
+Ex22_MAT vs Ex9_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR94_000291-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+ncbi:HRR94_000292-T1  ncbi:HRR81_000291-T1  0.99      0.99      
+ncbi:HRR94_000293-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR94_000294-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR94_000295-T1  ncbi:HRR81_000294-T1  0.69      0.69      
+ncbi:HRR94_000296-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR94_000297-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+
+Ex22_MAT vs S4_MAT
+------------------
+Query  Target  Identity  Similarity
+
+Ex23_MAT vs Ex2_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR95_000611-T1  ncbi:HRR74_000623-T1  1.00      1.00      
+ncbi:HRR95_000612-T1  ncbi:HRR74_000624-T1  1.00      1.00      
+ncbi:HRR95_000613-T1  ncbi:HRR74_000625-T1  1.00      1.00      
+ncbi:HRR95_000614-T1  ncbi:HRR74_000626-T1  1.00      1.00      
+ncbi:HRR95_000615-T1  ncbi:HRR74_000627-T1  1.00      1.00      
+ncbi:HRR95_000616-T1  ncbi:HRR74_000628-T1  1.00      1.00      
+
+Ex23_MAT vs Ex3_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR95_000611-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+ncbi:HRR95_000612-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR95_000613-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR95_000614-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR95_000615-T1  ncbi:HRR75_000624-T1  1.00      1.00      
+ncbi:HRR95_000616-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+
+Ex23_MAT vs Ex4_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR95_000611-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR95_000612-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR95_000613-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR95_000614-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR95_000615-T1  ncbi:HRR76_000623-T1  0.80      0.81      
+ncbi:HRR95_000616-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex23_MAT vs Ex5_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR95_000611-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR95_000612-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR95_000613-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR95_000614-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR95_000615-T1  ncbi:HRR77_000635-T1  1.00      1.00      
+ncbi:HRR95_000616-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex23_MAT vs Ex6_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR95_000611-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR95_000612-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR95_000613-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR95_000614-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR95_000615-T1  ncbi:HRR78_003181-T1  1.00      1.00      
+ncbi:HRR95_000616-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex23_MAT vs Ex7_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR95_000611-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR95_000612-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR95_000613-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR95_000614-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR95_000615-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex23_MAT vs Ex8_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR95_000611-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR95_000612-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR95_000613-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR95_000614-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR95_000615-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR95_000616-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex23_MAT vs Ex9_MAT
+-------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR95_000611-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR95_000612-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR95_000613-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR95_000614-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR95_000615-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR95_000616-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex23_MAT vs S4_MAT
+------------------
+Query  Target  Identity  Similarity
+
+Ex2_MAT vs Ex3_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR74_000623-T1  ncbi:HRR75_000620-T1  1.00      1.00      
+ncbi:HRR74_000624-T1  ncbi:HRR75_000621-T1  1.00      1.00      
+ncbi:HRR74_000625-T1  ncbi:HRR75_000622-T1  1.00      1.00      
+ncbi:HRR74_000626-T1  ncbi:HRR75_000623-T1  1.00      1.00      
+ncbi:HRR74_000627-T1  ncbi:HRR75_000624-T1  1.00      1.00      
+ncbi:HRR74_000628-T1  ncbi:HRR75_000625-T1  1.00      1.00      
+
+Ex2_MAT vs Ex4_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR74_000623-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR74_000624-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR74_000625-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR74_000626-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR74_000627-T1  ncbi:HRR76_000623-T1  0.80      0.81      
+ncbi:HRR74_000628-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex2_MAT vs Ex5_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR74_000623-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR74_000624-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR74_000625-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR74_000626-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR74_000627-T1  ncbi:HRR77_000635-T1  1.00      1.00      
+ncbi:HRR74_000628-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex2_MAT vs Ex6_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR74_000623-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR74_000624-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR74_000625-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR74_000626-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR74_000627-T1  ncbi:HRR78_003181-T1  1.00      1.00      
+ncbi:HRR74_000628-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex2_MAT vs Ex7_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR74_000623-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR74_000624-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR74_000625-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR74_000626-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR74_000627-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex2_MAT vs Ex8_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR74_000623-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR74_000624-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR74_000625-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR74_000626-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR74_000627-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR74_000628-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex2_MAT vs Ex9_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR74_000623-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR74_000624-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR74_000625-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR74_000626-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR74_000627-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR74_000628-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex2_MAT vs S4_MAT
+-----------------
+Query  Target  Identity  Similarity
+
+Ex3_MAT vs Ex4_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR75_000620-T1  ncbi:HRR76_000618-T1  1.00      1.00      
+ncbi:HRR75_000621-T1  ncbi:HRR76_000619-T1  1.00      1.00      
+ncbi:HRR75_000622-T1  ncbi:HRR76_000621-T1  1.00      1.00      
+ncbi:HRR75_000623-T1  ncbi:HRR76_000622-T1  1.00      1.00      
+ncbi:HRR75_000624-T1  ncbi:HRR76_000623-T1  0.80      0.81      
+ncbi:HRR75_000625-T1  ncbi:HRR76_000624-T1  1.00      1.00      
+
+Ex3_MAT vs Ex5_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR75_000620-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR75_000621-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR75_000622-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR75_000623-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR75_000624-T1  ncbi:HRR77_000635-T1  1.00      1.00      
+ncbi:HRR75_000625-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex3_MAT vs Ex6_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR75_000620-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR75_000621-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR75_000622-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR75_000623-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR75_000624-T1  ncbi:HRR78_003181-T1  1.00      1.00      
+ncbi:HRR75_000625-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex3_MAT vs Ex7_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR75_000620-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR75_000621-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR75_000622-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR75_000623-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR75_000624-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex3_MAT vs Ex8_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR75_000620-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR75_000621-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR75_000622-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR75_000623-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR75_000624-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR75_000625-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex3_MAT vs Ex9_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR75_000620-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR75_000621-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR75_000622-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR75_000623-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR75_000624-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR75_000625-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex3_MAT vs S4_MAT
+-----------------
+Query  Target  Identity  Similarity
+
+Ex4_MAT vs Ex5_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR76_000618-T1  ncbi:HRR77_000630-T1  1.00      1.00      
+ncbi:HRR76_000619-T1  ncbi:HRR77_000631-T1  1.00      1.00      
+ncbi:HRR76_000620-T1  ncbi:HRR77_000632-T1  0.97      0.97      
+ncbi:HRR76_000621-T1  ncbi:HRR77_000633-T1  1.00      1.00      
+ncbi:HRR76_000622-T1  ncbi:HRR77_000634-T1  1.00      1.00      
+ncbi:HRR76_000623-T1  ncbi:HRR77_000635-T1  0.80      0.81      
+ncbi:HRR76_000624-T1  ncbi:HRR77_000636-T1  1.00      1.00      
+
+Ex4_MAT vs Ex6_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR76_000618-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR76_000619-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR76_000621-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR76_000622-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR76_000623-T1  ncbi:HRR78_003181-T1  0.80      0.81      
+ncbi:HRR76_000624-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex4_MAT vs Ex7_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR76_000618-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR76_000619-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR76_000620-T1  ncbi:HRR79_000297-T1  0.69      0.69      
+ncbi:HRR76_000621-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR76_000622-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR76_000623-T1  ncbi:HRR79_000294-T1  0.80      0.81      
+
+Ex4_MAT vs Ex8_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR76_000618-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR76_000619-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR76_000621-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR76_000622-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR76_000623-T1  ncbi:HRR80_000620-T1  0.80      0.81      
+ncbi:HRR76_000624-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex4_MAT vs Ex9_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR76_000618-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR76_000619-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR76_000620-T1  ncbi:HRR81_000294-T1  1.00      1.00      
+ncbi:HRR76_000621-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR76_000622-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR76_000623-T1  ncbi:HRR81_000291-T1  0.80      0.81      
+ncbi:HRR76_000624-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex4_MAT vs S4_MAT
+-----------------
+Query  Target  Identity  Similarity
+
+Ex5_MAT vs Ex6_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR77_000630-T1  ncbi:HRR78_003177-T1  1.00      1.00      
+ncbi:HRR77_000631-T1  ncbi:HRR78_003178-T1  1.00      1.00      
+ncbi:HRR77_000633-T1  ncbi:HRR78_003179-T1  1.00      1.00      
+ncbi:HRR77_000634-T1  ncbi:HRR78_003180-T1  1.00      1.00      
+ncbi:HRR77_000635-T1  ncbi:HRR78_003181-T1  1.00      1.00      
+ncbi:HRR77_000636-T1  ncbi:HRR78_003182-T1  1.00      1.00      
+
+Ex5_MAT vs Ex7_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR77_000630-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR77_000631-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR77_000632-T1  ncbi:HRR79_000297-T1  0.68      0.68      
+ncbi:HRR77_000633-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR77_000634-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR77_000635-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex5_MAT vs Ex8_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR77_000630-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR77_000631-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR77_000633-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR77_000634-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR77_000635-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR77_000636-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex5_MAT vs Ex9_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR77_000630-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR77_000631-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR77_000632-T1  ncbi:HRR81_000294-T1  0.97      0.97      
+ncbi:HRR77_000633-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR77_000634-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR77_000635-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR77_000636-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex5_MAT vs S4_MAT
+-----------------
+Query  Target  Identity  Similarity
+
+Ex6_MAT vs Ex7_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR78_003177-T1  ncbi:HRR79_000299-T1  1.00      1.00      
+ncbi:HRR78_003178-T1  ncbi:HRR79_000298-T1  1.00      1.00      
+ncbi:HRR78_003179-T1  ncbi:HRR79_000296-T1  1.00      1.00      
+ncbi:HRR78_003180-T1  ncbi:HRR79_000295-T1  1.00      1.00      
+ncbi:HRR78_003181-T1  ncbi:HRR79_000294-T1  1.00      1.00      
+
+Ex6_MAT vs Ex8_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR78_003177-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+ncbi:HRR78_003178-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR78_003179-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR78_003180-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR78_003181-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR78_003182-T1  ncbi:HRR80_000621-T1  1.00      1.00      
+
+Ex6_MAT vs Ex9_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR78_003177-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR78_003178-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR78_003179-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR78_003180-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR78_003181-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR78_003182-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex6_MAT vs S4_MAT
+-----------------
+Query  Target  Identity  Similarity
+
+Ex7_MAT vs Ex8_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR79_000294-T1  ncbi:HRR80_000620-T1  1.00      1.00      
+ncbi:HRR79_000295-T1  ncbi:HRR80_000619-T1  1.00      1.00      
+ncbi:HRR79_000296-T1  ncbi:HRR80_000618-T1  1.00      1.00      
+ncbi:HRR79_000298-T1  ncbi:HRR80_000617-T1  1.00      1.00      
+ncbi:HRR79_000299-T1  ncbi:HRR80_000616-T1  1.00      1.00      
+
+Ex7_MAT vs Ex9_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR79_000294-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR79_000295-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR79_000296-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR79_000297-T1  ncbi:HRR81_000294-T1  0.69      0.69      
+ncbi:HRR79_000298-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR79_000299-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+
+Ex7_MAT vs S4_MAT
+-----------------
+Query  Target  Identity  Similarity
+
+Ex8_MAT vs Ex9_MAT
+------------------
+Query                 Target                Identity  Similarity
+ncbi:HRR80_000616-T1  ncbi:HRR81_000296-T1  1.00      1.00      
+ncbi:HRR80_000617-T1  ncbi:HRR81_000295-T1  1.00      1.00      
+ncbi:HRR80_000618-T1  ncbi:HRR81_000293-T1  1.00      1.00      
+ncbi:HRR80_000619-T1  ncbi:HRR81_000292-T1  1.00      1.00      
+ncbi:HRR80_000620-T1  ncbi:HRR81_000291-T1  1.00      1.00      
+ncbi:HRR80_000621-T1  ncbi:HRR81_000290-T1  1.00      1.00      
+
+Ex8_MAT vs S4_MAT
+-----------------
+Query  Target  Identity  Similarity
+
+Ex9_MAT vs S4_MAT
+-----------------
+Query  Target  Identity  Similarity
