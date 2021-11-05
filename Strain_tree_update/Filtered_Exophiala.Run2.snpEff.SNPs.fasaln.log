@@ -1,0 +1,35 @@
+IQ-TREE multicore version 2.0.4 for Linux 64-bit built Apr 27 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    i04 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -nt 2 -s Strain_tree_update/Filtered_Exophiala.Run2.snpEff.SNPs.fasaln -m GTR+ASC -b 100
+Seed:    117316 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr 30 01:51:48 2021
+Kernel:  AVX+FMA - 2 threads (2 CPU cores detected)
+
+Reading alignment file Strain_tree_update/Filtered_Exophiala.Run2.snpEff.SNPs.fasaln ... Fasta format detected
+ERROR: Sequence Ex21 contains not enough characters (450)
+ERROR: Sequence Ex2 contains not enough characters (449)
+ERROR: Sequence Ex4 contains not enough characters (411)
+ERROR: Sequence Ex5 contains not enough characters (448)
+ERROR: Sequence Ex6 contains not enough characters (453)
+ERROR: Sequence Ex20 contains not enough characters (453)
+ERROR: Sequence Ex12 contains not enough characters (434)
+ERROR: Sequence Ex1 contains not enough characters (448)
+ERROR: Sequence Ex3 contains not enough characters (425)
+ERROR: Sequence Ex18 contains not enough characters (435)
+ERROR: Sequence Ex22 contains too many characters (477)
+ERROR: Sequence Ex23 contains too many characters (477)
+ERROR: Sequence Ex19 contains too many characters (477)
+ERROR: Sequence Ex9 contains too many characters (462)
+ERROR: Sequence Ex16 contains too many characters (481)
+ERROR: Sequence Ex8 contains not enough characters (426)
+ERROR: Sequence Ex4REF contains not enough characters (334)
+ERROR: Sequence Ex17 contains too many characters (479)
+ERROR: Sequence Ex7 contains too many characters (481)
+ERROR: Sequence Ex13 contains too many characters (462)
+ERROR: Sequence Ex10 contains not enough characters (453)
+ERROR: Sequence Ex14 contains not enough characters (431)
+ERROR: Sequence Ex15 contains not enough characters (435)
+ERROR: 
