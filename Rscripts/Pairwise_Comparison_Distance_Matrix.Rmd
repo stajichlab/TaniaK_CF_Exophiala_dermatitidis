@@ -1,0 +1,105 @@
+---
+title: "Pairwise Comparison Distance Matrix"
+author: "Tania Kurbessoian"
+date: "11/2/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{R}
+library(ape)
+library(patchwork)
+library(ggplot2)
+library(readr)
+library(dplyr)
+library(tidyverse)
+library(RColorBrewer)
+library(magrittr)
+library(reshape)
+library(data.table)
+library(stringr)
+library(viridis)
+library(cowplot)
+library(ggtext)
+library(glue)
+```
+
+
+```{R}
+SNP <- read.table("SNP_up.txt", sep ="\t", 
+                     header = TRUE)
+INDEL <- read.table("INDEL_up.txt", sep ="\t", 
+                     header = TRUE)
+#SNP_rf <-reshape(SNP, direction="wide", idvar="V2", timevar="V1")
+
+#INDEL_rf <-reshape(INDEL, direction="wide", idvar="V2", timevar="V1")
+
+#as.dist(xtabs(SNP[, 3] ~ SNP[, 2] + SNP[, 1]))
+#as.dist(xtabs(INDEL[, 3] ~ INDEL[, 2] + INDEL[, 1]))
+
+contingency_table_SNP <- xtabs(SNP ~ Label.1 + Label.2, SNP)
+contingency_table_SNP
+
+contingency_table_INDEL <- xtabs(INDEL ~ Label.1 + Label.2, INDEL)
+
+#https://stackoverflow.com/questions/25061822/ggplot-geom-text-font-size-control
+#https://stackoverflow.com/questions/47667994/ggplot-x-axis-labels-with-all-x-axis-values
+#https://jtr13.github.io/spring19/Community_Contribution_xs2291.html
+#https://stackoverflow.com/questions/69084649/p-values-heatmap-representation-of-all-pairwise-comparisons-p-values-with-r-e
+#https://search.r-project.org/CRAN/refmans/cowplot/html/plot_grid.html
+# Use ggtext to adjust text colors https://github.com/wilkelab/ggtext
+#https://stackoverflow.com/questions/65652600/how-to-use-ggtext-to-color-axis-data-labels-in-r
+
+#omit nas?
+SNP <- na.omit(SNP)
+
+ID <- 1:23
+
+Clade1 = list("1,2,12,14")
+Clade2 = list("3,4,8,22,17,16,7,19,23,6,10")
+Clade3 = list("18,15,20,21,5,9,11,13")
+
+color = c(Clade1 = "#f5d5cb",Clade2 = "#d7ecd9",Clade3 = "#d5d6ea")
+color = c("1"="#f5d5cb", "2"="#f5d5cb", "3"="#d7ecd9", "4"="#d7ecd9", "5"="#d5d6ea", "6"="#d7ecd9", "7"="#d7ecd9", "8"="#d7ecd9", "9"="#d5d6ea","10"= "#d7ecd9", "11"="#d5d6ea", "12"="#f5d5cb", "13"="#d5d6ea", "14"="#f5d5cb", "15"="#d5d6ea", "16"="#d7ecd9", "17"="#d7ecd9", "18"="#d5d6ea", "19"="#d7ecd9", "20"="#d5d6ea", "21"="#d5d6ea", "22"="#d7ecd9", "23"="#d7ecd9")
+#mutate(ID = glue("<i style='color: {color[ID]}'>{ID}</i>'")) %>% #
+     
+ggplot(SNP) + geom_tile(aes(Label.1, Label.2, fill = SNP)) + geom_text(aes(Label.1, Label.2, label = SNP),  size=2) + labs(title="Exophiala dermatitidis SNP Pairwise Distance Matrix ",x="Strains",y="Strains") + scale_x_continuous("Strains", labels = as.character(ID), breaks = ID) + scale_y_continuous("Strains", labels = as.character(ID), breaks = ID) + theme(panel.grid.major = element_blank()) + scale_fill_gradient("SNP", low="red", high="white") + theme_bw() + theme(axis.text.y = element_markdown(fill=color)) + theme(axis.text.x = element_markdown(fill=color))
+
+
+ggsave(filename="plots/Distance_matrix_SNP_fill_pastel.pdf",width=6,height=4)
+ggsave(filename="plots/Distance_matrix_SNP_fill_pastel.png",width=6,height=4)
+
+# to remove grids theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+```
+#SNP_plot <- ggplot(SNP) + geom_tile(aes(Label.1, Label.2, fill = SNP)) + geom_text(aes(Label.1, Label.2, label = SNP),  size=2) + labs(title="Exophiala dermatitidis SNP Pairwise Distance Matrix ",x="Strains",y="Strains") + scale_x_continuous("Strains", labels = as.character(ID), breaks = ID) + scale_y_continuous("Strains", labels = as.character(ID), breaks = ID) + theme(panel.grid.major = element_blank()) + scale_fill_gradient("SNP", low="red", high="white")
+
+```{R} 
+#INDEL
+ID <- 1:23
+
+
+color = c("1"="#f5d5cb", "2"="#f5d5cb", "3"="#d7ecd9", "4"="#d7ecd9", "5"="#d5d6ea", "6"="#d7ecd9", "7"="#d7ecd9", "8"="#d7ecd9", "9"="#d5d6ea","10"= "#d7ecd9", "11"="#d5d6ea", "12"="#f5d5cb", "13"="#d5d6ea", "14"="#f5d5cb", "15"="#d5d6ea", "16"="#d7ecd9", "17"="#d7ecd9", "18"="#d5d6ea", "19"="#d7ecd9", "20"="#d5d6ea", "21"="#d5d6ea", "22"="#d7ecd9", "23"="#d7ecd9")
+
+ggplot(INDEL) + geom_tile(aes(Label.1, Label.2, fill = INDEL)) + geom_text(aes(Label.1, Label.2, label = INDEL),  size=2) + labs(title="Exophiala dermatitidis INDEL Pairwise Distance Matrix ",x="Strains",y="Strains") + scale_x_continuous("Strains", labels = as.character(ID), breaks = ID) + scale_y_continuous("Strains", labels = as.character(ID), breaks = ID) + theme(panel.grid.major = element_blank()) + scale_fill_gradient("INDEL", low="red", high="white") + theme_bw() + theme(axis.text.y = element_markdown(fill=color)) + theme(axis.text.x = element_markdown(fill=color))
+
+ggsave(filename="plots/Distance_matrix_INDEL_fill_pastel.pdf",width=6,height=4)
+ggsave(filename="plots/Distance_matrix_INDEL_fill_pastel.png",width=6,height=4)
+```
+
+```{R}
+pdf("SNP_INDEL.pdf", width=13, height=8)
+q<-plot_grid( SNP_plot, INDEL_plot, D,  labels = c('A', 'B', 'C'))
+
+ggsave("SNP_INDEL.png",  # filename of your choosing
+       q,         # your tree
+       device = "png",       # what kind of file should it be saved as?
+       dpi = 400,             # resolution of the tree
+       units = "cm",          # units to use in the height and width arguments
+       height = 20,           # height of the image
+       width = 35)
+q
+dev.off()
+```

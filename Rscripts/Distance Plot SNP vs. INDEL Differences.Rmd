@@ -1,0 +1,183 @@
+---
+title: "Distance Plot SNP vs. INDEL Differences"
+author: "Tania Kurbessoian"
+date: "10/18/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ggplot2)
+library(RColorBrewer)
+library(pals)
+library(colorspace)
+require(pals)
+require(reshape2)
+library(dplyr)
+library(tidyverse)
+library(ggpubr)
+```
+
+```{R}
+pdf("SNP_INDEL_regression.pdf", width=12, height=7)
+SNP_INDEL <- read.table("pairwise_SNPvsINDEL.txt", sep ="\t", 
+                     quote = "", header = TRUE, row.names = 1)
+
+lm_eqn <- function(SNP_INDEL){
+    m <- lm(y ~ x, SNP_INDEL);
+    eq <- substitute(italic(y) == a + b %.% italic(x)*","~~italic(r)^2~"="~r2, 
+         list(a = format(unname(coef(m)[1]), digits = 2),
+              b = format(unname(coef(m)[2]), digits = 2),
+             r2 = format(summary(m)$r.squared, digits = 3)))
+    as.character(as.expression(eq));
+}
+
+#SNP_INDEL_f <- as.factor(SNP_INDEL)
+p <- ggplot(SNP_INDEL) + geom_point(aes(x=SNP, y=INDEL)) +
+  labs(title="Exophiala dermatitidis SNP vs INDEL Distance Plot ",x="SNP Difference",y="INDEL Difference")
+p
+
+# slope formula
+Z <- ggscatter(SNP_INDEL, x = "SNP", y = "INDEL", add = "reg.line") +
+  stat_regline_equation(label.y = 40) +
+  labs(title="Exophiala dermatitidis SNP vs INDEL Distance Plot ",x="SNP Difference",y="INDEL Difference")
+Z
+
+# By default showing Pearson's R
+Z1 <- ggscatter(SNP_INDEL, x = "SNP", y = "INDEL", add = "reg.line") +
+  stat_cor(label.y = 40) +
+  labs(title="Exophiala dermatitidis SNP vs INDEL Distance Plot ",x="SNP Difference",y="INDEL Difference")
+Z1
+
+# R squared
+Z2 <- ggscatter(SNP_INDEL, x = "SNP", y = "INDEL", add = "reg.line") +
+   stat_cor(label.y = 40, aes(label = paste(..rr.label.., ..p.label.., sep = "~`,`~"))) +
+  labs(title="Exophiala dermatitidis SNP vs INDEL Distance Plot ",x="SNP Difference",y="INDEL Difference")
+Z2
+
+#https://stackoverflow.com/questions/7549694/add-regression-line-equation-and-r2-on-graph
+lm_eqn <- function(SNP_INDEL, y, x){
+    formula = as.formula(sprintf('%s ~ %s', y, x))
+    m <- lm(formula, data=SNP_INDEL);
+    # formating the values into a summary string to print out
+    # ~ give some space, but equal size and comma need to be quoted
+    eq <- substitute(italic(target) == a + b %.% italic(input)*","~~italic(r)^2~"="~r2*","~~p~"="~italic(pvalue), 
+         list(target = y,
+              input = x,
+              a = format(as.vector(coef(m)[1]), digits = 2), 
+              b = format(as.vector(coef(m)[2]), digits = 2), 
+             r2 = format(summary(m)$r.squared, digits = 3),
+             # getting the pvalue is painful
+             pvalue = format(summary(m)$coefficients[2,'Pr(>|t|)'], digits=1)
+            )
+          )
+    as.character(as.expression(eq));                 
+}
+
+#https://github.com/kassambara/ggpubr/issues/32
+
+D <- ggscatter(SNP_INDEL, x = "SNP", y = "INDEL", color = "Clade") + 
+   stat_cor(aes(label = paste(..rr.label.., ..p.label.., sep = "~`,`~")), label.x = 3) +
+  geom_text(x=250,y=40,label=lm_eqn(SNP_INDEL, 'SNP','INDEL')) +
+  scale_color_manual(values = c("#FF7F7F","#ADD8E6","#90EE90", "#4a4a4a")) +
+  geom_smooth(method='lm') + labs(title="Exophiala dermatitidis SNP vs INDEL Distance Plot",
+                                  x="SNP Difference",y="INDEL Difference") 
+D
+
+ggsave("SNP_INDEL_regression.png",  # filename of your choosing
+       D,         # your tree
+       device = "png",       # what kind of file should it be saved as?
+       dpi = 400,             # resolution of the tree
+       units = "cm",          # units to use in the height and width arguments
+       height = 20,           # height of the image
+       width = 30)
+
+
+dev.off()
+```
+```{R}
+pdf("Cleaned.SNP_INDEL_regression.pdf", width=12, height=7)
+SNP_INDEL <- read.table("cleaned.SNPvsINDEL.txt", sep ="\t", 
+                     quote = "", header = TRUE, row.names = 1)
+
+lm_eqn <- function(SNP_INDEL){
+    m <- lm(y ~ x, SNP_INDEL);
+    eq <- substitute(italic(y) == a + b %.% italic(x)*","~~italic(r)^2~"="~r2, 
+         list(a = format(unname(coef(m)[1]), digits = 2),
+              b = format(unname(coef(m)[2]), digits = 2),
+             r2 = format(summary(m)$r.squared, digits = 3)))
+    as.character(as.expression(eq));
+}
+
+#SNP_INDEL_f <- as.factor(SNP_INDEL)
+p <- ggplot(SNP_INDEL) + geom_point(aes(x=SNP, y=INDEL)) +
+  labs(title="Exophiala dermatitidis SNP vs INDEL Distance Plot ",x="SNP Difference",y="INDEL Difference")
+p
+
+# slope formula
+Z <- ggscatter(SNP_INDEL, x = "SNP", y = "INDEL", add = "reg.line") +
+  stat_regline_equation(label.y = 40) +
+  labs(title="Exophiala dermatitidis SNP vs INDEL Distance Plot ",x="SNP Difference",y="INDEL Difference")
+Z
+
+# By default showing Pearson's R
+Z1 <- ggscatter(SNP_INDEL, x = "SNP", y = "INDEL", add = "reg.line") +
+  stat_cor(label.y = 40) +
+  labs(title="Exophiala dermatitidis SNP vs INDEL Distance Plot ",x="SNP Difference",y="INDEL Difference")
+Z1
+
+# R squared
+Z2 <- ggscatter(SNP_INDEL, x = "SNP", y = "INDEL", add = "reg.line") +
+   stat_cor(label.y = 40, aes(label = paste(..rr.label.., ..p.label.., sep = "~`,`~"))) +
+  labs(title="Exophiala dermatitidis SNP vs INDEL Distance Plot ",x="SNP Difference",y="INDEL Difference")
+Z2
+
+#https://stackoverflow.com/questions/7549694/add-regression-line-equation-and-r2-on-graph
+lm_eqn <- function(SNP_INDEL, y, x){
+    formula = as.formula(sprintf('%s ~ %s', y, x))
+    m <- lm(formula, data=SNP_INDEL);
+    # formating the values into a summary string to print out
+    # ~ give some space, but equal size and comma need to be quoted
+    eq <- substitute(italic(target) == a + b %.% italic(input)*","~~italic(r)^2~"="~r2*","~~p~"="~italic(pvalue), 
+         list(target = y,
+              input = x,
+              a = format(as.vector(coef(m)[1]), digits = 2), 
+              b = format(as.vector(coef(m)[2]), digits = 2), 
+             r2 = format(summary(m)$r.squared, digits = 3),
+             # getting the pvalue is painful
+             pvalue = format(summary(m)$coefficients[2,'Pr(>|t|)'], digits=1)
+            )
+          )
+    as.character(as.expression(eq));                 
+}
+
+#https://github.com/kassambara/ggpubr/issues/32
+
+D <- ggscatter(SNP_INDEL, x = "SNP", y = "INDEL", color = "Clade") + 
+   stat_cor(aes(label = paste(..rr.label.., ..p.label.., sep = "~`,`~")), label.x = 3) +
+  geom_text(x=250,y=40,label=lm_eqn(SNP_INDEL, 'SNP','INDEL')) +
+  scale_color_manual(values = c("#FF7F7F","#ADD8E6","#90EE90", "#4a4a4a")) +
+  geom_smooth(method='lm') + labs(title="Exophiala dermatitidis SNP vs INDEL Distance Plot",
+                                  x="SNP Difference",y="INDEL Difference") 
+D
+
+ggsave("Cleaned.SNP_INDEL_regression.png",  # filename of your choosing
+       D,         # your tree
+       device = "png",       # what kind of file should it be saved as?
+       dpi = 400,             # resolution of the tree
+       units = "cm",          # units to use in the height and width arguments
+       height = 20,           # height of the image
+       width = 30)
+
+
+dev.off()
+```
+
+
+
+#D <- ggscatter(SNP_INDEL, x = "SNP", y = "INDEL", add = "reg.line") +
+#  geom_text(x=250,y=40,label=lm_eqn(SNP_INDEL, 'SNP','INDEL'),color='red',parse=T) +
+#  geom_smooth(method='lm') + labs(title="Exophiala dermatitidis SNP vs INDEL Distance Plot #",xlab="SNP Difference",y="INDEL Difference")

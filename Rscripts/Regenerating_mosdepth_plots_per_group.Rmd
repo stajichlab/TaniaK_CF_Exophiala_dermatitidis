@@ -1,0 +1,267 @@
+---
+title: "Updated Mosdepth"
+author: "Tania Kurbessoian"
+date: "4/25/2022"
+output: pdf_document
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+library(ggplot2)
+library(RColorBrewer)
+library(pals)
+library(colorspace)
+require(pals)
+require(reshape2)
+```
+#Future tania- this plot was generated 3 times, having 1-8, 9-16, 17-23 strains set separately and run mosdepth on.
+#"Ex1", "Ex2", "Ex3", "Ex4", "Ex5", "Ex6", "Ex7", "Ex8"
+#"Ex9","Ex10","Ex11","Ex12","Ex13","Ex14","Ex15", "Ex16"
+#"Ex17","Ex18","Ex19","Ex20","Ex21","Ex22","Ex23"
+
+```{R}
+multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
+  library(grid)
+  
+  # Make a list from the ... arguments and plotlist
+  plots <- c(list(...), plotlist)
+  
+  numPlots = length(plots)
+  
+  # If layout is NULL, then use 'cols' to determine layout
+  if (is.null(layout)) {
+    # Make the panel
+    # ncol: Number of columns of plots
+    # nrow: Number of rows needed, calculated from # of cols
+    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
+                     ncol = cols, nrow = ceiling(numPlots/cols))
+  }
+  
+  if (numPlots==1) {
+    print(plots[[1]])
+    
+  } else {
+    # Set up the page
+    grid.newpage()
+    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
+    
+    # Make each plot, in the correct location
+    for (i in 1:numPlots) {
+      # Get the i,j matrix positions of the regions that contain this subplot
+      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
+      
+      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
+                                      layout.pos.col = matchidx$col))
+    }
+  }
+}
+
+palette <- c("#94d5d5", "#529c9c", "#ee8b31", "#52526a", "#a4accd", "#e66a08", "#085a62", "#944110", "#417b9c", "#b4cdee", "#83839c", "#aceeee", "#5a83c5", "#83a4de", "#6a6a8b", "#834a29", "#ee8341", "#5a5a8b", "#f6b441", "#acbdb4", "#6a7b73", "#6a2941", "#9cc5de")
+#, length.out = number)
+
+colourCount = length(unique(d$Strain))
+nb.cols <- 24
+colors1 <- colorRampPalette(brewer.pal(8, "Dark2"))(nb.cols)
+#getPalette = colorRampPalette(brewer.pal(9, "Dark2"))
+
+
+#manualColors = c("dodgerblue2","red1","grey20")
+#library(extrafont) # loaded Arial on mac with instructions here https://github.com/wch/extrafont
+#Clus
+
+bedwindows = read.table("mosdepth.10000bp.gg.tab.gz",header=F)
+colnames(bedwindows) = c("Chr","Start","End","Depth","Location","Strain")
+#bedwindows = subset(bedwindows,bedwindows$Chr != "MT_CBS_6936") # drop MT for this
+
+bedwindows$CHR <- strtoi(sub("scaffold_","\\1",bedwindows$Chr,perl=TRUE))
+#bedwindows$CHR <- strtoi(sub("NW_00([0-9]+).1","\\1",bedwindows$Chr,perl=TRUE))
+#bedwindows$CHR <- bedwindows$CHR - 8751645
+chrlist = 1:9
+d=bedwindows[bedwindows$CHR %in% chrlist, ]
+d$CHR=factor(d$CHR)
+
+d <- d[order(d$CHR, d$Start), ]
+d$index = rep.int(seq_along(unique(d$CHR)), times = tapply(d$Start,d$CHR,length)) 
+d$pos=NA
+
+nchr = length(unique(chrlist))
+lastbase=0
+ticks = NULL
+minor = vector(,8)
+
+for (i in 1:nchr ) {
+  if (i ==1) {
+    d[d$index==i, ]$pos = d[d$index==i, ]$Start
+  } else {
+    ## chromosome position maybe not start at 1, eg. 9999. So gaps may be produced. 
+    lastbase = lastbase + max(d[d$index==(i-1),"Start"])
+    minor[i] = lastbase
+    d[d$index == i,"Start"] =
+      d[d$index == i,"Start"]-min(d[d$index==i,"Start"]) +1
+    d[d$index == i,"End"] = lastbase
+    d[d$index == i, "pos"] = d[d$index == i,"Start"] + lastbase
+  }
+}
+
+ticks <-tapply(d$pos,d$index,quantile,probs=0.5)
+#ticks
+minorB <- tapply(d$End,d$index,max,probs=0.5)
+#minorB
+#minor
+xmax = ceiling(max(d$pos) * 1.03)
+xmin = floor(max(d$pos) * -0.03)
+d$Strain = factor(d$Strain, levels = c("Ex1", "Ex2", "Ex3", "Ex4", "Ex5", "Ex6", "Ex7", "Ex8"))
+
+d<-na.omit(d)
+
+p1 <- ggplot(d,aes(x=pos,y=Depth, color=Strain, fill=Strain)) +
+  geom_vline(mapping=NULL, xintercept=minorB,alpha=0.5,size=0.1,colour='grey15')	+
+  geom_point(alpha=0.8,size=0.4,shape=16) + scale_colour_brewer(palette = "Set2") +
+  labs(title="Genomewide Coverage in 10kb Windows Across all 23 strains of Exophiala
+  dermatitidis",xlab="Position",y="Normalized Read Depth") +
+  scale_x_continuous(name="Chromosome", expand = c(0, 0), breaks = ticks, labels=(unique(d$CHR))) +   
+  scale_y_continuous(name="Normalized Read Depth", expand = c(0, 0), limits = c(0,3))  + 
+  theme_classic() + guides(color = guide_legend(override.aes = list(size = 2.5)))
+#+ guides(color=FALSE) 
+#
+#display.brewer.pal(name = "Set1", n = 8)
+#+ scale_fill_manual(values = c("#94d5d5", "#529c9c", "#ee8b31", "#52526a", "#a4accd", "#e66a08", "#085a62", "#944110", "#417b9c", "#b4cdee", "#83839c", "#aceeee", "#5a83c5", "#83a4de", "#6a6a8b", "#834a29", "#ee8341", "#5a5a8b", "#f6b441", "#acbdb4", "#6a7b73", "#6a2941", "#9cc5de","#6a3d9a"))
+p1
+
+ggsave("Genomewide_cov_by_10kb_win_mosdepth_1-8.png",p1, width=10, height=4)
+ggsave("Genomewide_cov_by_10kb_win_mosdepth_1-8.pdf",p1, width=10, height=4)
+```
+
+
+
+#What about the color scheme I have for Ul/LL/Sp in Fig 1 which is Upper=bright blue, lower=red, sputum=black/dark gray
+```{R}
+#Run for 5kb windows
+bedwindows5kb = read.table("mosdepth.v2.5000bp.gg.tab.gz",header=F)
+colnames(bedwindows5kb) = c("Chr","Start","End","Depth","Location", "Strain")
+#bedwindows = subset(bedwindows,bedwindows$Chr != "MT_CBS_6936") # drop MT for this
+bedwindows5kb$CHR <- strtoi(sub("scaffold_","\\1",bedwindows5kb$Chr,perl=TRUE))
+#bedwindows5kb$CHR <- bedwindows5kb$CHR - 8751645
+chrlist = 1:9
+d2=bedwindows5kb[bedwindows5kb$CHR %in% chrlist, ]
+d2$CHR=factor(d2$CHR)
+d2 <- d2[order(d2$CHR, d2$Start), ]
+d2$index = rep.int(seq_along(unique(d2$CHR)), times = tapply(d2$Start,d2$CHR,length)) 
+d2$pos=NA
+
+#reuse from before
+#nchr = length(unique(d$CHR))
+lastbase=0
+ticks = NULL
+minor = vector(,8)
+for (i in 1:nchr ) {
+  if (i==1) {
+    d2[d2$index==i, ]$pos=d2[d2$index==i, ]$Start
+  } else {
+    ## chromosome position maybe not start at 1, eg. 9999. So gaps may be produced. 
+    lastbase = lastbase + max(d2[d2$index==(i-1),"Start"])
+    minor[i] = lastbase
+    d2[d2$index == i,"Start"] =
+      d2[d2$index == i,"Start"]-min(d2[d2$index==i,"Start"]) +1
+    d2[d2$index == i,"End"] = lastbase
+    d2[d2$index == i, "pos"] = d2[d2$index == i,"Start"] + lastbase
+  }
+}
+ticks <-tapply(d2$pos,d2$index,quantile,probs=0.5)
+ticks
+minorB <- tapply(d2$End,d2$index,max,probs=0.5)
+minorB
+minor
+#d2$Group = factor(d2$Group, levels = c("LL", "UL", 
+#                                     "UUMRR","Sp1", "Sp2", "B", "C", "CL","PH"))
+d2$Strain = factor(d2$Strain, 
+                  levels = c("Ex1","Ex2","Ex3","Ex4","Ex5","Ex6","Ex7","Ex8","Ex9",
+                             "Ex10", "Ex11", "Ex12","Ex13","Ex14","Ex15", "Ex16", "Ex17",
+                             "Ex18","Ex19","Ex20","Ex21","Ex22","Ex23"))
+
+xmax = ceiling(max(d2$pos) * 1.03)
+xmin = floor(max(d2$pos) * -0.03)
+
+plot_strain <- function (strain, data) {
+  l = subset(data,data$Strain == strain)
+  Title=sprintf("Chr coverage plot for %s",strain)
+  p2 <- ggplot(l,aes(x=pos,y=Depth,color=CHR)) + 
+    scale_colour_brewer(palette = "Set3") +
+    geom_point(alpha=0.9,size=0.5,shape=16) +
+    labs(title=Title,xlab="Position",y="Normalized Read Depth") +
+    scale_x_continuous(name="Chromosome", expand = c(0, 0), breaks=ticks,labels=(unique(d$CHR))) +
+    scale_y_continuous(name="Normalized Read Depth", expand = c(0, 0), limits = c(0,3)) + 
+    theme_classic() + guides(color=FALSE)
+}
+pdf("StrainPlot_5kb.pdf")
+
+plts <- lapply(unique(d2$Strain),plot_strain,data=d2)
+plts
+
+plot_chrs <-function (chrom, data) {
+  Title=sprintf("Chr%s depth of coverage",chrom)
+  l <- subset(data,data$CHR==chrom)
+  l$bp <- l$Start
+  p2<-ggplot(l,
+            aes(x=bp,y=Depth,color=Strain)) +
+    geom_point(alpha=0.7,size=0.75,shape=16) +
+    scale_color_brewer(palette="RdYlBu",type="seq") +
+    labs(title=Title,xlab="Position",y="Normalized Read Depth") +
+    scale_x_continuous(expand = c(0, 0), name="Position") +
+    scale_y_continuous(name="Normalized Read Depth", expand = c(0, 0), limits = c(0,3)) + 
+    theme_classic() + guides(fill = guide_legend(keywidth = 3, keyheight = 1))
+}
+pdf("ChrPlot_5kb.pdf")
+plts2 <- lapply(1:nchr,plot_chrs,data=d2)
+plts2
+```
+
+
+#p <- ggplot(d,
+#            aes(x=pos,y=Depth,color=Strain)) +
+#  geom_vline(mapping=NULL, xintercept=minorB,alpha=0.5,size=0.1,colour='grey15')	+
+#  geom_point(alpha=0.8,size=0.4,shape=16) +
+#  labs(title=Title,xlab="Position",y="Normalized Read Depth") +
+#  scale_x_continuous(name="Chromosome", expand = c(0, 0),
+#                     breaks = ticks,                      
+#                     labels=(unique(d$CHR))) +
+#  scale_y_continuous(name="Normalized Read Depth", expand = c(0, 0),
+#                     limits = c(0,3)) + theme_classic() + 
+#  guides(fill = guide_legend(keywidth = 3, keyheight = 1))
+
+#p
+
+# # test plot one chrom
+# dprime = d[d$CHR %in% 6:6, ]
+# dprime$bp = dprime$Start
+# Title=sprintf("Chr%s depth of coverage","6")
+# p <- ggplot(dprime,
+#             aes(x=bp,y=Depth,color=Group))  +
+#     geom_point(alpha=0.9,size=0.5,shape=16) +
+#     scale_color_manual(values = manualColors) +
+#     labs(title=Title,xlab="Position",y="Normalized Read Depth") +
+#     scale_x_continuous(name="Chromosome bp", expand = c(0, 0)) +
+#     scale_y_continuous(name="Normalized Read Depth", expand = c(0, 0),
+#                        limits = c(0,3)) + theme_classic() +
+#     guides(fill = guide_legend(keywidth = 3, keyheight = 1))
+# p
+
+# plot_strains <- function (strain, data) {
+#    l = subset(data,data$Strain == strain)
+#    Title=sprintf("Chr coverage plot for %s",strain)
+#    p <- ggplot(l,aes(x=pos,y=Depth,color=CHR)) + 
+#     scale_colour_brewer(palette = "Set3") +
+#     geom_point(alpha=0.9,size=0.5,shape=16) +
+#     labs(title=Title,xlab="Position",y="Normalized Read Depth") +
+#     scale_x_continuous(name="Chromosome", expand = c(0, 0),
+#                        breaks=ticks,
+#                        labels=(unique(d$CHR))) +
+#     scale_y_continuous(name="Normalized Read Depth", expand = c(0, 0),
+#                        limits = c(0,3)) + theme_classic() + guides(color=FALSE)
+# }
+# myplots <- lapply(unique(d$Strain),plot_strains,data=d)
+# 
+# mp = multiplot(plotlist=myplots,file="multiplot.pdf",cols=2)

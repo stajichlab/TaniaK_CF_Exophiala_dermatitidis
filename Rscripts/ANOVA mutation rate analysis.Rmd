@@ -1,0 +1,65 @@
+---
+title: "ANOVA mutation rate analysis"
+author: "Tania Kurbessoian"
+date: "9/13/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{R}
+library(dplyr)
+library(ggplot2)
+library(ggpubr)
+library(tidyverse)
+library(broom)
+library(AICcmodavg)
+library(reshape2)
+```
+
+```{R}
+#load in data
+df <- read.table(file="mutationrate.txt", sep="\t", header=TRUE)
+#need to melt long datafram to a tall one, this gives each value two dependents, ie clade name and mutation rate.
+df2 <-melt(df)
+#rename headers
+df2 <- df2 %>% rename("Clades" = variable, "Mutation.Rate" = value)
+#remove all the N/A values
+df2_clean <- na.omit(df2)
+```
+
+```{R}
+#Run ANOVA and all pairwise tests
+one.way <-aov(Mutation.Rate ~ Clades, data = df2_clean)
+summary(one.way)
+#F value 7.071 pvalue 0.00104 sig!
+
+par(mfrow=c(1,1))
+plot(one.way)
+par(mfrow=c(4,4))
+
+tukey.one.way<-TukeyHSD(one.way)
+tukey.one.way
+#Tukey multiple comparisons of means
+#    95% family-wise confidence level
+
+#Fit: aov(formula = Mutation.Rate ~ Clades, data = df2_clean)
+
+#$Clades
+#                                             diff           lwr           upr     p adj
+#Clade.II-Clade.I                     1.388076e-08 -2.851109e-08  5.627261e-08 0.8089541
+#Clade.III.group.1-Clade.I            6.101277e-08  1.604942e-08  1.059761e-07 0.0047437
+#Clade.III.group.2-Clade.I            4.095975e-09 -5.585515e-08  6.404710e-08 0.9976578
+#Clade.III.group.1-Clade.II           4.713200e-08  1.361830e-08  8.064570e-08 0.0033427
+#Clade.III.group.2-Clade.II          -9.784789e-09 -6.170399e-08  4.213441e-08 0.9552097
+#Clade.III.group.2-Clade.III.group.1 -5.691679e-08 -1.109560e-07 -2.877575e-09 0.0360700
+
+tukey.plot.aov<-aov(Mutation.Rate ~ Clades, data=df2_clean)
+tukey.plot.test<-TukeyHSD(tukey.plot.aov)
+
+par(mfrow = c(1, 1))
+par(mar=c(8,8,5,1))
+plot(tukey.plot.test, las = 1.5, cex.axis = 0.55)
+```
