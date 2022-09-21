@@ -13,7 +13,6 @@
 *~
 .#*
 *.log
-MAT_Loci/
 MAT_Loci_copy/
 logs/
 coverage_alt3/
@@ -29,4 +28,7 @@ Viz_GWAS_copy/
 Viz_GWAS_v1/
 old_Mosdepth_CNV/
 old_attempt/
-
+gvcf/
+gvcf.v2/
+MAT_Loci/CLINKER.ALL/hide/
+Strain_tree_update/
