@@ -17,4 +17,6 @@ snpEff/ contains files generated from snpEff analysis.
 
 telomeric-identifier/ contains analysis done for telomere recovery.
 
+coverage/ contains files used in our mosdepth analysis.
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5646872.svg)](https://doi.org/10.5281/zenodo.5646872)
