@@ -7,4 +7,4 @@ CPU=$SLURM_CPUS_ON_NODE
 
 source activate clinker
 
-clinker *.gbk -p plot_E_derm_REDO.html
+clinker *.gbk -p plot_E_derm_ALL.html
