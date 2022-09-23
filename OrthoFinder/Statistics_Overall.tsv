@@ -22,7 +22,7 @@ Unassigned genes file Orthogroups_UnassignedGenes.tsv
 Per-species statistics  Statistics_PerSpecies.tsv
 Overall statistics  Statistics_Overall.tsv
 Orthogroups shared between species  Orthogroups_SpeciesOverlaps.tsv
-Average number of genes per-species in orthogroup	Number of orthogroups	Percentage of orthogroups	Number of genes	Percentage of genes
+Average number of genes per-species in orthogroup Number of orthogroups Percentage of orthogroups Number of genes Percentage of genes
 <1	0	0.0	0	0.0
 '1	7933	95.9	15975	90.6
 '2	250	3.0	1021	5.8
